@@ -1,0 +1,199 @@
+:root {
+  --bg-top: #12303a;
+  --bg-bottom: #0d1f28;
+  --text: #ecf5f3;
+  --text-muted: #8fb0ad;
+  --accent: #e5534b;      /* помидорный */
+  --accent-soft: #ffb3ae;
+  --calm: #6fcf97;        /* зелёный «отдых» */
+  --surface: rgba(255, 255, 255, 0.07);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--text);
+  background: linear-gradient(160deg, var(--bg-top), var(--bg-bottom));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.rest {
+  width: 100%;
+  max-width: 560px;
+  padding: 24px;
+  text-align: center;
+}
+
+/* Шапка с логотипом */
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 18px;
+  opacity: 0.75;
+}
+
+.brand-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.brand-name {
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  color: var(--text-muted);
+}
+
+.rest-title {
+  margin: 0 0 6px;
+  font-size: 30px;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+.rest-subtitle {
+  margin: 0 0 20px;
+  font-size: 15px;
+  color: var(--text-muted);
+}
+
+/* Кольцевой таймер */
+.timer {
+  position: relative;
+  width: 128px;
+  height: 128px;
+  margin: 0 auto 22px;
+}
+
+.timer-ring {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg); /* старт сверху */
+}
+
+.timer-ring-track,
+.timer-ring-progress {
+  fill: none;
+  stroke-width: 8;
+  stroke-linecap: round;
+}
+
+.timer-ring-track {
+  stroke: var(--surface);
+}
+
+.timer-ring-progress {
+  stroke: var(--calm);
+  transition: stroke-dashoffset 0.95s linear;
+}
+
+.timer-value {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 38px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.timer.is-done .timer-ring-progress {
+  stroke: var(--accent-soft);
+}
+
+.timer.is-done .timer-value {
+  font-size: 30px;
+}
+
+/* Схема «монитор → 6 метров → окно» */
+.scene {
+  width: 100%;
+  max-width: 460px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.scene-screen { fill: #1d4250; }
+.scene-screen-inner { fill: #2b5d6e; }
+.scene-stand { fill: #17323d; }
+.scene-eye-white { fill: #f4fbfa; }
+.scene-pupil { fill: #14313c; }
+.scene-window { fill: #1b4d52; stroke: #2f7c7f; stroke-width: 3; }
+.scene-window-bar { stroke: #2f7c7f; stroke-width: 3; }
+.scene-sun { fill: #f2c94c; }
+.scene-trunk { fill: #8a6236; }
+.scene-leaves { fill: var(--calm); }
+.scene-ground { fill: #2b6b56; }
+
+.scene-arrow {
+  stroke: var(--accent-soft);
+  stroke-width: 2.5;
+  stroke-dasharray: 8 7;
+}
+
+.scene-arrow-head { fill: var(--accent-soft); }
+
+.scene-distance {
+  fill: var(--accent-soft);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.scene-label {
+  fill: var(--text-muted);
+  font-size: 12px;
+}
+
+/* Три шага правила */
+.steps {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 0 22px;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.step {
+  background: var(--surface);
+  border-radius: 999px;
+  padding: 7px 14px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.step-number {
+  color: var(--accent-soft);
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+.skip-button {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: var(--text-muted);
+  border-radius: 999px;
+  padding: 9px 20px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.skip-button:hover {
+  border-color: rgba(255, 255, 255, 0.45);
+  color: var(--text);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .timer-ring-progress { transition: none; }
+}

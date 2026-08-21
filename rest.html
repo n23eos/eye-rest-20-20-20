@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Отдых для глаз</title>
+  <link rel="stylesheet" href="rest.css">
+</head>
+<body>
+  <main class="rest">
+    <header class="brand">
+      <img src="icons/icon48.png" alt="" class="brand-icon">
+      <span class="brand-name">Отдых для глаз</span>
+    </header>
+
+    <h1 class="rest-title" id="restTitle">Посмотри вдаль</h1>
+    <p class="rest-subtitle" id="restSubtitle">Выбери что-нибудь метрах в шести от себя и смотри туда</p>
+
+    <!-- Кольцевой отсчёт -->
+    <div class="timer">
+      <svg class="timer-ring" viewBox="0 0 128 128" aria-hidden="true">
+        <circle class="timer-ring-track" cx="64" cy="64" r="54"></circle>
+        <circle class="timer-ring-progress" id="ringProgress" cx="64" cy="64" r="54"></circle>
+      </svg>
+      <span class="timer-value" id="timerValue">20</span>
+    </div>
+
+    <!-- Визуальная схема: глаз → 6 метров → окно с деревом -->
+    <svg class="scene" viewBox="0 0 520 150" role="img"
+         aria-label="Схема: от монитора перевести взгляд на объект в шести метрах">
+      <!-- Монитор со стороны пользователя -->
+      <rect x="16" y="34" width="96" height="66" rx="7" class="scene-screen"></rect>
+      <rect x="26" y="44" width="76" height="46" rx="4" class="scene-screen-inner"></rect>
+      <rect x="54" y="100" width="20" height="14" class="scene-stand"></rect>
+      <rect x="38" y="114" width="52" height="7" rx="3.5" class="scene-stand"></rect>
+      <!-- Глаз на экране -->
+      <ellipse cx="64" cy="67" rx="22" ry="13" class="scene-eye-white"></ellipse>
+      <circle cx="64" cy="67" r="7" class="scene-pupil"></circle>
+      <text x="64" y="140" class="scene-label" text-anchor="middle">рабочий экран</text>
+
+      <!-- Стрелка взгляда вдаль -->
+      <line x1="130" y1="67" x2="376" y2="67" class="scene-arrow"></line>
+      <polygon points="376,67 366,61 366,73" class="scene-arrow-head"></polygon>
+      <text x="253" y="52" class="scene-distance" text-anchor="middle">≈ 6 м (20 футов)</text>
+
+      <!-- Окно с деревом вдали -->
+      <rect x="392" y="20" width="112" height="94" rx="7" class="scene-window"></rect>
+      <line x1="448" y1="20" x2="448" y2="114" class="scene-window-bar"></line>
+      <line x1="392" y1="67" x2="504" y2="67" class="scene-window-bar"></line>
+      <circle cx="470" cy="41" r="11" class="scene-sun"></circle>
+      <rect x="418" y="84" width="7" height="26" class="scene-trunk"></rect>
+      <circle cx="421.5" cy="76" r="16" class="scene-leaves"></circle>
+      <rect x="392" y="106" width="112" height="8" class="scene-ground"></rect>
+      <text x="448" y="140" class="scene-label" text-anchor="middle">даль за окном</text>
+    </svg>
+
+    <!-- Правило 20-20-20 в три шага -->
+    <ul class="steps">
+      <li class="step"><span class="step-number">20</span> минут работы</li>
+      <li class="step"><span class="step-number">20</span> футов ≈ 6 метров</li>
+      <li class="step"><span class="step-number">20</span> секунд смотреть</li>
+    </ul>
+
+    <button class="skip-button" id="skipButton">Пропустить (Esc)</button>
+  </main>
+  <script type="module" src="rest.js"></script>
+</body>
+</html>

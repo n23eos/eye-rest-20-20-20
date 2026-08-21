@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="popup">
+    <header class="popup-header">
+      <span class="popup-title">👀 Отдых для глаз</span>
+      <label class="toggle">
+        <input type="checkbox" id="enabledToggle">
+        <span class="toggle-slider"></span>
+      </label>
+    </header>
+
+    <p class="next-reminder" id="nextReminderText">—</p>
+
+    <button class="snooze-button" id="snoozeButton">Отложить на 5 минут</button>
+    <button class="preview-button" id="previewButton">Проверить сейчас</button>
+
+    <hr class="divider">
+
+    <section class="pomodoro">
+      <div class="pomodoro-header">
+        <span class="popup-title">🍅 Помодоро</span>
+        <span class="pomodoro-cycles" id="pomodoroCycles"></span>
+      </div>
+      <p class="next-reminder" id="pomodoroStatus">Не запущено</p>
+      <button class="pomodoro-button" id="pomodoroButton">Запустить</button>
+    </section>
+
+    <hr class="divider">
+
+    <section class="stats">
+      <div class="stats-header">
+        <span class="popup-title">📊 Отдыхов</span>
+        <span class="stats-summary" id="statsSummary">—</span>
+      </div>
+      <div class="stats-chart" id="statsChart"></div>
+    </section>
+
+    <footer class="popup-footer">
+      <button class="settings-link" id="settingsLink">⚙ Настройки</button>
+    </footer>
+  </main>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
