@@ -1,0 +1,117 @@
+{
+  "appName": { "message": "Eye Rest 20-20-20" },
+  "appDescription": {
+    "message": "Eye break reminders based on the 20-20-20 rule, plus a Pomodoro timer. Everything stays on your device."
+  },
+
+  "popupEyeTitle": { "message": "👀 Eye Rest" },
+  "popupSnooze": { "message": "Snooze for 5 minutes" },
+  "popupPreview": { "message": "Test it now" },
+  "popupPomodoroTitle": { "message": "🍅 Pomodoro" },
+  "popupStatsTitle": { "message": "📊 Rests" },
+  "popupSettings": { "message": "⚙ Settings" },
+
+  "reminderNext": {
+    "message": "Next reminder in ~$MINUTES$ min",
+    "placeholders": { "minutes": { "content": "$1" } }
+  },
+  "reminderOff": { "message": "Reminders are off" },
+  "reminderPaused": { "message": "Paused while Pomodoro is running" },
+
+  "pomodoroIdle": { "message": "Not running" },
+  "pomodoroStart": {
+    "message": "Start ($WORK$ / $BREAK$)",
+    "placeholders": { "work": { "content": "$1" }, "break": { "content": "$2" } }
+  },
+  "pomodoroStop": { "message": "Stop" },
+  "pomodoroCycles": {
+    "message": "cycles: $COUNT$",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "phaseWork": { "message": "Focus" },
+  "phaseBreak": { "message": "Break" },
+  "phaseLongBreak": { "message": "Long break" },
+
+  "statsSummary": {
+    "message": "today $TODAY$ · total $TOTAL$",
+    "placeholders": { "today": { "content": "$1" }, "total": { "content": "$2" } }
+  },
+
+  "restBrand": { "message": "Eye Rest" },
+  "restEyeTitle": { "message": "Look into the distance" },
+  "restEyeSubtitle": { "message": "Pick something about 20 feet away and rest your eyes on it" },
+  "restBreakTitle": { "message": "Break 🍅" },
+  "restBreakSubtitle": { "message": "Stand up, stretch, let your eyes rest" },
+  "restLongBreakTitle": { "message": "Long break 🍅" },
+  "restLongBreakSubtitle": { "message": "Step away from the screen, stretch your back and neck" },
+  "restDone": { "message": "Done" },
+  "restSkip": { "message": "Skip (Esc)" },
+  "sceneScreen": { "message": "your screen" },
+  "sceneDistance": { "message": "≈ 20 ft (6 m)" },
+  "sceneWindow": { "message": "something far away" },
+  "stepWork": { "message": "minutes of work" },
+  "stepDistance": { "message": "feet ≈ 6 meters" },
+  "stepSeconds": { "message": "seconds of looking" },
+
+  "optionsTitle": { "message": "Eye Rest — settings" },
+  "cardEyes": { "message": "👀 Eye reminders" },
+  "fieldInterval": { "message": "Remind me every" },
+  "fieldIntervalHint": { "message": "the 20-20-20 rule means every 20 minutes" },
+  "fieldRestSeconds": { "message": "Rest duration" },
+  "fieldRestSecondsHint": { "message": "how many seconds to look away" },
+  "fieldNotificationType": { "message": "How to remind" },
+  "fieldNotificationTypeHint": { "message": "a window with instructions is harder to ignore" },
+  "optionOverlay": { "message": "Window with 20-20-20 instructions" },
+  "optionNotification": { "message": "System notification" },
+  "optionBoth": { "message": "Both window and notification" },
+  "fieldSound": { "message": "Sound" },
+  "fieldSoundHint": {
+    "message": "plays in the rest window. With «System notification» the sound comes from your OS"
+  },
+  "fieldSoundName": { "message": "Which sound" },
+  "fieldSoundNameHint": { "message": "press «Play» to pick one by ear" },
+  "playSound": { "message": "▶ Play" },
+  "previewRestButton": { "message": "Show the rest window now" },
+
+  "cardPomodoro": { "message": "🍅 Pomodoro" },
+  "fieldWork": { "message": "Focus" },
+  "fieldShortBreak": { "message": "Short break" },
+  "fieldLongBreak": { "message": "Long break" },
+  "fieldCycles": { "message": "Cycles before a long break" },
+
+  "cardStats": { "message": "📊 Statistics" },
+  "statsLine": {
+    "message": "Today: $TODAY$ · Total rests: $TOTAL$",
+    "placeholders": { "today": { "content": "$1" }, "total": { "content": "$2" } }
+  },
+  "resetStats": { "message": "Reset statistics" },
+  "resetStatsConfirm": { "message": "Reset all rest statistics? This cannot be undone." },
+  "saved": { "message": "Saved ✓" },
+
+  "unitMinutes": { "message": "min" },
+  "unitSeconds": { "message": "sec" },
+  "unitCount": { "message": "" },
+
+  "soundChime": { "message": "Chime" },
+  "soundBell": { "message": "Bell" },
+  "soundMarimba": { "message": "Marimba" },
+  "soundDrop": { "message": "Drop" },
+  "soundSoft": { "message": "Soft" },
+
+  "notifyEyeTitle": { "message": "Time to rest your eyes 👀" },
+  "notifyEyeMessage": {
+    "message": "Look at something about 20 feet away for $SECONDS$ seconds.",
+    "placeholders": { "seconds": { "content": "$1" } }
+  },
+  "notifyEyeButton": { "message": "Show timer" },
+  "notifyBreakTitle": {
+    "message": "Break: $MINUTES$ min 🍅",
+    "placeholders": { "minutes": { "content": "$1" } }
+  },
+  "notifyBreakMessage": { "message": "Stand up, stretch, look into the distance." },
+  "notifyWorkTitle": { "message": "Break is over 🍅" },
+  "notifyWorkMessage": {
+    "message": "Back to work — $MINUTES$ minutes of focus.",
+    "placeholders": { "minutes": { "content": "$1" } }
+  }
+}

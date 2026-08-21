@@ -13,6 +13,11 @@ export function getDayKey(date = new Date()) {
   return date.toLocaleDateString('sv-SE'); // формат sv-SE как раз YYYY-MM-DD
 }
 
+/** Язык интерфейса расширения: подписи дней недели должны совпадать с UI. */
+function getUiLocale() {
+  return globalThis.chrome?.i18n?.getUILanguage?.() ?? undefined;
+}
+
 export async function getStats() {
   const stored = await chrome.storage.local.get({ stats: DEFAULT_STATS });
   return { ...DEFAULT_STATS, ...stored.stats };
@@ -50,6 +55,7 @@ function prune(dailyRests) {
 
 /** Последние N дней (включая сегодня) для столбиков в попапе. */
 export function getRecentDays(stats, days) {
+  const locale = getUiLocale();
   const result = [];
   for (let daysAgo = days - 1; daysAgo >= 0; daysAgo -= 1) {
     const date = new Date();
@@ -58,7 +64,7 @@ export function getRecentDays(stats, days) {
     result.push({
       key,
       count: stats.dailyRests[key] ?? 0,
-      weekdayLabel: date.toLocaleDateString('ru-RU', { weekday: 'short' }),
+      weekdayLabel: date.toLocaleDateString(locale, { weekday: 'short' }),
     });
   }
   return result;

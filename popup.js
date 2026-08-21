@@ -2,6 +2,7 @@
 
 import { getSettings, saveSettings } from './settings.js';
 import { getStats, getRecentDays, getDayKey } from './stats.js';
+import { t, applyI18n } from './i18n.js';
 
 const REMINDER_ALARM_NAME = 'eyeRestReminder';
 const CHART_DAYS = 7;
@@ -14,10 +15,10 @@ const DEFAULT_POMODORO_STATE = {
   completedCycles: 0,
 };
 
-const PHASE_LABELS = {
-  work: 'Работа',
-  break: 'Перерыв',
-  longBreak: 'Длинный перерыв',
+const PHASE_MESSAGE_KEYS = {
+  work: 'phaseWork',
+  break: 'phaseBreak',
+  longBreak: 'phaseLongBreak',
 };
 
 const enabledToggle = document.getElementById('enabledToggle');
@@ -36,17 +37,19 @@ const statsChart = document.getElementById('statsChart');
 async function updateEyeReminderView() {
   const settings = await getSettings();
   enabledToggle.checked = settings.isEyeReminderEnabled;
-  pomodoroButton.textContent = `Запустить (${settings.workMinutes} / ${settings.shortBreakMinutes})`;
+  pomodoroButton.textContent = t('pomodoroStart', [
+    String(settings.workMinutes), String(settings.shortBreakMinutes),
+  ]);
 
   const alarm = await chrome.alarms.get(REMINDER_ALARM_NAME);
   if (!alarm) {
     nextReminderText.textContent = settings.isEyeReminderEnabled
-      ? 'На паузе, пока идёт помодоро'
-      : 'Напоминания выключены';
+      ? t('reminderPaused')
+      : t('reminderOff');
     return;
   }
   const minutesLeft = Math.max(1, Math.round((alarm.scheduledTime - Date.now()) / 60000));
-  nextReminderText.textContent = `Следующее напоминание через ~${minutesLeft} мин`;
+  nextReminderText.textContent = t('reminderNext', [String(minutesLeft)]);
 }
 
 // --- Помодоро ---
@@ -60,7 +63,7 @@ async function updatePomodoroView() {
   const state = await getPomodoroState();
 
   if (!state.isRunning) {
-    pomodoroStatus.textContent = 'Не запущено';
+    pomodoroStatus.textContent = t('pomodoroIdle');
     pomodoroCycles.textContent = '';
     return;
   }
@@ -68,9 +71,11 @@ async function updatePomodoroView() {
   const secondsLeft = Math.max(0, Math.round((state.phaseEndTime - Date.now()) / 1000));
   const minutes = String(Math.floor(secondsLeft / 60)).padStart(2, '0');
   const seconds = String(secondsLeft % 60).padStart(2, '0');
-  pomodoroStatus.textContent = `${PHASE_LABELS[state.phase]}: ${minutes}:${seconds}`;
-  pomodoroCycles.textContent = state.completedCycles > 0 ? `циклов: ${state.completedCycles}` : '';
-  pomodoroButton.textContent = 'Остановить';
+  pomodoroStatus.textContent = `${t(PHASE_MESSAGE_KEYS[state.phase])}: ${minutes}:${seconds}`;
+  pomodoroCycles.textContent = state.completedCycles > 0
+    ? t('pomodoroCycles', [String(state.completedCycles)])
+    : '';
+  pomodoroButton.textContent = t('pomodoroStop');
 }
 
 // --- Статистика ---
@@ -81,7 +86,7 @@ async function updateStatsView() {
   const todayKey = getDayKey();
   const todayCount = stats.dailyRests[todayKey] ?? 0;
 
-  statsSummary.textContent = `сегодня ${todayCount} · всего ${stats.totalRests}`;
+  statsSummary.textContent = t('statsSummary', [String(todayCount), String(stats.totalRests)]);
 
   // Высота столбика — доля от лучшего дня недели
   const maxCount = Math.max(1, ...days.map((day) => day.count));
@@ -143,4 +148,5 @@ settingsLink.addEventListener('click', () => {
 
 // Тикаем, пока попап открыт
 setInterval(updatePomodoroView, 1000);
+applyI18n();
 refreshView();

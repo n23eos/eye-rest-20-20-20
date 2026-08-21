@@ -4,6 +4,7 @@
 
 import { getSettings, NOTIFICATION_TYPES } from './settings.js';
 import { recordRest } from './stats.js';
+import { t } from './i18n.js';
 
 const REMINDER_ALARM_NAME = 'eyeRestReminder';
 const NOTIFICATION_ID = 'eyeRestNotification';
@@ -110,9 +111,9 @@ async function showReminderNotification(restSeconds) {
   chrome.notifications.create(NOTIFICATION_ID, {
     type: 'basic',
     iconUrl: 'icons/icon128.png',
-    title: 'Пора отдохнуть глазам 👀',
-    message: `Посмотри вдаль (примерно 6 метров) на ${restSeconds} секунд.`,
-    buttons: [{ title: 'Показать таймер' }],
+    title: t('notifyEyeTitle'),
+    message: t('notifyEyeMessage', [String(restSeconds)]),
+    buttons: [{ title: t('notifyEyeButton') }],
     priority: 2,
   }, () => {
     if (chrome.runtime.lastError) {
@@ -223,10 +224,10 @@ async function announcePomodoroPhase(state, settings) {
   }
   if (wantsNotification || !isBreak) {
     const minutes = getPhaseMinutes(state.phase, settings);
-    const title = isBreak ? `Перерыв ${minutes} мин 🍅` : 'Перерыв окончен 🍅';
+    const title = isBreak ? t('notifyBreakTitle', [String(minutes)]) : t('notifyWorkTitle');
     const message = isBreak
-      ? 'Встань, разомнись, посмотри вдаль.'
-      : `За работу! ${minutes} минут фокуса.`;
+      ? t('notifyBreakMessage')
+      : t('notifyWorkMessage', [String(minutes)]);
     showPomodoroNotification(title, message);
   }
 }

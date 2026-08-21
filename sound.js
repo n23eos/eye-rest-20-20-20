@@ -8,6 +8,7 @@ const DEFAULT_ATTACK_SECONDS = 0.03;
  * Пресеты звуков. Ноты идут по возрастанию — так играет сигнал начала отдыха;
  * для сигнала окончания тот же набор проигрывается в обратном порядке.
  *
+ * labelKey       — ключ перевода названия для страницы настроек
  * wave           — форма волны осциллятора
  * notes          — частоты в герцах
  * noteSeconds    — длительность одной ноты
@@ -19,14 +20,14 @@ const DEFAULT_ATTACK_SECONDS = 0.03;
  */
 export const SOUND_PRESETS = {
   chime: {
-    label: 'Колокольчик',
+    labelKey: 'soundChime',
     wave: 'sine',
     notes: [659.25, 987.77],
     noteSeconds: 0.42,
     gapSeconds: 0.16,
   },
   bell: {
-    label: 'Колокол',
+    labelKey: 'soundBell',
     wave: 'sine',
     notes: [783.99, 1174.66],
     noteSeconds: 1.4,
@@ -36,7 +37,7 @@ export const SOUND_PRESETS = {
     volume: 0.85,
   },
   marimba: {
-    label: 'Маримба',
+    labelKey: 'soundMarimba',
     wave: 'triangle',
     notes: [523.25, 659.25, 783.99],
     noteSeconds: 0.26,
@@ -45,7 +46,7 @@ export const SOUND_PRESETS = {
     volume: 1.1,
   },
   drop: {
-    label: 'Капля',
+    labelKey: 'soundDrop',
     wave: 'sine',
     notes: [1174.66, 587.33],
     noteSeconds: 0.3,
@@ -54,7 +55,7 @@ export const SOUND_PRESETS = {
     glideRatio: 0.5, // съезд на октаву вниз даёт эффект капли
   },
   soft: {
-    label: 'Мягкий',
+    labelKey: 'soundSoft',
     wave: 'triangle',
     notes: [440, 554.37],
     noteSeconds: 0.9,
@@ -142,7 +143,7 @@ export async function playSound(soundName, kind = 'start') {
       scheduleNote(context, preset, frequency, context.currentTime + index * preset.gapSeconds);
     });
   } catch (error) {
-    console.warn('[eyes] звук недоступен:', error);
+    console.warn('[eyes] sound unavailable:', error);
   }
 }
 

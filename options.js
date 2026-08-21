@@ -4,6 +4,7 @@
 import { getSettings, saveSettings, clampSetting, SETTING_LIMITS } from './settings.js';
 import { getStats, resetStats, getDayKey } from './stats.js';
 import { SOUND_PRESETS, playSound } from './sound.js';
+import { t, applyI18n } from './i18n.js';
 
 const TOAST_DURATION_MS = 1400;
 
@@ -30,7 +31,7 @@ function fillSoundOptions() {
   soundSelect.replaceChildren(...Object.entries(SOUND_PRESETS).map(([name, preset]) => {
     const option = document.createElement('option');
     option.value = name;
-    option.textContent = preset.label;
+    option.textContent = t(preset.labelKey);
     return option;
   }));
 }
@@ -56,7 +57,7 @@ function updateSoundControlsState() {
 async function loadStats() {
   const stats = await getStats();
   const todayCount = stats.dailyRests[getDayKey()] ?? 0;
-  statsLine.textContent = `Сегодня: ${todayCount} · Всего отдыхов: ${stats.totalRests}`;
+  statsLine.textContent = t('statsLine', [String(todayCount), String(stats.totalRests)]);
 }
 
 /** Число вне допустимых границ подтягиваем к ближайшему валидному. */
@@ -105,7 +106,7 @@ previewButton.addEventListener('click', () => {
 
 // Сброс необратим — спрашиваем подтверждение
 resetStatsButton.addEventListener('click', async () => {
-  const isConfirmed = window.confirm('Обнулить всю статистику отдыхов? Отменить будет нельзя.');
+  const isConfirmed = window.confirm(t('resetStatsConfirm'));
   if (!isConfirmed) return;
 
   await resetStats();
@@ -113,6 +114,7 @@ resetStatsButton.addEventListener('click', async () => {
   showSavedToast();
 });
 
+applyI18n();
 fillSoundOptions();
 loadSettings();
 loadStats();

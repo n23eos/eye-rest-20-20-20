@@ -1,0 +1,117 @@
+{
+  "appName": { "message": "Отдых для глаз 20-20-20" },
+  "appDescription": {
+    "message": "Напоминания об отдыхе для глаз по правилу 20-20-20 и помодоро-таймер. Все данные остаются на вашем устройстве."
+  },
+
+  "popupEyeTitle": { "message": "👀 Отдых для глаз" },
+  "popupSnooze": { "message": "Отложить на 5 минут" },
+  "popupPreview": { "message": "Проверить сейчас" },
+  "popupPomodoroTitle": { "message": "🍅 Помодоро" },
+  "popupStatsTitle": { "message": "📊 Отдыхов" },
+  "popupSettings": { "message": "⚙ Настройки" },
+
+  "reminderNext": {
+    "message": "Следующее напоминание через ~$MINUTES$ мин",
+    "placeholders": { "minutes": { "content": "$1" } }
+  },
+  "reminderOff": { "message": "Напоминания выключены" },
+  "reminderPaused": { "message": "На паузе, пока идёт помодоро" },
+
+  "pomodoroIdle": { "message": "Не запущено" },
+  "pomodoroStart": {
+    "message": "Запустить ($WORK$ / $BREAK$)",
+    "placeholders": { "work": { "content": "$1" }, "break": { "content": "$2" } }
+  },
+  "pomodoroStop": { "message": "Остановить" },
+  "pomodoroCycles": {
+    "message": "циклов: $COUNT$",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "phaseWork": { "message": "Работа" },
+  "phaseBreak": { "message": "Перерыв" },
+  "phaseLongBreak": { "message": "Длинный перерыв" },
+
+  "statsSummary": {
+    "message": "сегодня $TODAY$ · всего $TOTAL$",
+    "placeholders": { "today": { "content": "$1" }, "total": { "content": "$2" } }
+  },
+
+  "restBrand": { "message": "Отдых для глаз" },
+  "restEyeTitle": { "message": "Посмотри вдаль" },
+  "restEyeSubtitle": { "message": "Выбери что-нибудь метрах в шести от себя и смотри туда" },
+  "restBreakTitle": { "message": "Перерыв 🍅" },
+  "restBreakSubtitle": { "message": "Встань, разомнись, дай глазам отдохнуть" },
+  "restLongBreakTitle": { "message": "Длинный перерыв 🍅" },
+  "restLongBreakSubtitle": { "message": "Отойди от компьютера, разомни спину и шею" },
+  "restDone": { "message": "Готово" },
+  "restSkip": { "message": "Пропустить (Esc)" },
+  "sceneScreen": { "message": "рабочий экран" },
+  "sceneDistance": { "message": "≈ 6 м (20 футов)" },
+  "sceneWindow": { "message": "даль за окном" },
+  "stepWork": { "message": "минут работы" },
+  "stepDistance": { "message": "футов ≈ 6 метров" },
+  "stepSeconds": { "message": "секунд смотреть" },
+
+  "optionsTitle": { "message": "Отдых для глаз — настройки" },
+  "cardEyes": { "message": "👀 Напоминания для глаз" },
+  "fieldInterval": { "message": "Напоминать каждые" },
+  "fieldIntervalHint": { "message": "по правилу 20-20-20 — каждые 20 минут" },
+  "fieldRestSeconds": { "message": "Длительность отдыха" },
+  "fieldRestSecondsHint": { "message": "сколько секунд смотреть вдаль" },
+  "fieldNotificationType": { "message": "Как напоминать" },
+  "fieldNotificationTypeHint": { "message": "окно с инструкцией труднее проигнорировать" },
+  "optionOverlay": { "message": "Окно с инструкцией 20-20-20" },
+  "optionNotification": { "message": "Системное уведомление" },
+  "optionBoth": { "message": "И окно, и уведомление" },
+  "fieldSound": { "message": "Звук" },
+  "fieldSoundHint": {
+    "message": "сигнал в окне отдыха. В режиме «системное уведомление» звук играет сама система"
+  },
+  "fieldSoundName": { "message": "Какой звук" },
+  "fieldSoundNameHint": { "message": "нажми «Прослушать», чтобы выбрать на слух" },
+  "playSound": { "message": "▶ Прослушать" },
+  "previewRestButton": { "message": "Показать окно отдыха сейчас" },
+
+  "cardPomodoro": { "message": "🍅 Помодоро" },
+  "fieldWork": { "message": "Работа" },
+  "fieldShortBreak": { "message": "Короткий перерыв" },
+  "fieldLongBreak": { "message": "Длинный перерыв" },
+  "fieldCycles": { "message": "Циклов до длинного перерыва" },
+
+  "cardStats": { "message": "📊 Статистика" },
+  "statsLine": {
+    "message": "Сегодня: $TODAY$ · Всего отдыхов: $TOTAL$",
+    "placeholders": { "today": { "content": "$1" }, "total": { "content": "$2" } }
+  },
+  "resetStats": { "message": "Сбросить статистику" },
+  "resetStatsConfirm": { "message": "Обнулить всю статистику отдыхов? Отменить будет нельзя." },
+  "saved": { "message": "Сохранено ✓" },
+
+  "unitMinutes": { "message": "мин" },
+  "unitSeconds": { "message": "сек" },
+  "unitCount": { "message": "шт" },
+
+  "soundChime": { "message": "Колокольчик" },
+  "soundBell": { "message": "Колокол" },
+  "soundMarimba": { "message": "Маримба" },
+  "soundDrop": { "message": "Капля" },
+  "soundSoft": { "message": "Мягкий" },
+
+  "notifyEyeTitle": { "message": "Пора отдохнуть глазам 👀" },
+  "notifyEyeMessage": {
+    "message": "Посмотри вдаль (примерно 6 метров) на $SECONDS$ секунд.",
+    "placeholders": { "seconds": { "content": "$1" } }
+  },
+  "notifyEyeButton": { "message": "Показать таймер" },
+  "notifyBreakTitle": {
+    "message": "Перерыв: $MINUTES$ мин 🍅",
+    "placeholders": { "minutes": { "content": "$1" } }
+  },
+  "notifyBreakMessage": { "message": "Встань, разомнись, посмотри вдаль." },
+  "notifyWorkTitle": { "message": "Перерыв окончен 🍅" },
+  "notifyWorkMessage": {
+    "message": "За работу — $MINUTES$ минут фокуса.",
+    "placeholders": { "minutes": { "content": "$1" } }
+  }
+}

@@ -3,24 +3,16 @@
 
 import { getSettings } from './settings.js';
 import { playSound } from './sound.js';
+import { t, applyI18n } from './i18n.js';
 
 const RING_RADIUS = 54;
 const RING_CIRCUMFERENCE = 2 * Math.PI * RING_RADIUS;
 const AUTO_CLOSE_DELAY_MS = 1800;
 
-const TEXTS_BY_KIND = {
-  eye: {
-    title: 'Посмотри вдаль',
-    subtitle: 'Выбери что-нибудь метрах в шести от себя и смотри туда',
-  },
-  break: {
-    title: 'Перерыв 🍅',
-    subtitle: 'Встань, разомнись, дай глазам отдохнуть',
-  },
-  longBreak: {
-    title: 'Длинный перерыв 🍅',
-    subtitle: 'Отойди от компьютера, разомни спину и шею',
-  },
+const MESSAGE_KEYS_BY_KIND = {
+  eye: { title: 'restEyeTitle', subtitle: 'restEyeSubtitle' },
+  break: { title: 'restBreakTitle', subtitle: 'restBreakSubtitle' },
+  longBreak: { title: 'restLongBreakTitle', subtitle: 'restLongBreakSubtitle' },
 };
 
 const timerElement = document.querySelector('.timer');
@@ -36,7 +28,7 @@ function readParams() {
   const kind = params.get('kind');
   return {
     totalSeconds: Number.isFinite(seconds) && seconds > 0 ? Math.round(seconds) : 20,
-    kind: TEXTS_BY_KIND[kind] ? kind : 'eye',
+    kind: MESSAGE_KEYS_BY_KIND[kind] ? kind : 'eye',
   };
 }
 
@@ -55,7 +47,7 @@ function renderRing(secondsLeft, totalSeconds) {
 
 async function finish() {
   timerElement.classList.add('is-done');
-  timerValue.textContent = 'Готово';
+  timerValue.textContent = t('restDone');
   renderRing(1, 1); // кольцо остаётся полным — отдых засчитан
 
   if (soundName) {
@@ -88,9 +80,10 @@ function startCountdown(totalSeconds) {
 }
 
 const { totalSeconds, kind } = readParams();
-restTitle.textContent = TEXTS_BY_KIND[kind].title;
-restSubtitle.textContent = TEXTS_BY_KIND[kind].subtitle;
-document.title = TEXTS_BY_KIND[kind].title;
+applyI18n();
+restTitle.textContent = t(MESSAGE_KEYS_BY_KIND[kind].title);
+restSubtitle.textContent = t(MESSAGE_KEYS_BY_KIND[kind].subtitle);
+document.title = restTitle.textContent;
 
 skipButton.addEventListener('click', () => window.close());
 document.addEventListener('keydown', (event) => {

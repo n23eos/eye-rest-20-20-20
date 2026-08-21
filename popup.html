@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="popup.css">
@@ -7,7 +7,7 @@
 <body>
   <main class="popup">
     <header class="popup-header">
-      <span class="popup-title">👀 Отдых для глаз</span>
+      <span class="popup-title" data-i18n="popupEyeTitle">Eye Rest</span>
       <label class="toggle">
         <input type="checkbox" id="enabledToggle">
         <span class="toggle-slider"></span>
@@ -16,32 +16,32 @@
 
     <p class="next-reminder" id="nextReminderText">—</p>
 
-    <button class="snooze-button" id="snoozeButton">Отложить на 5 минут</button>
-    <button class="preview-button" id="previewButton">Проверить сейчас</button>
+    <button class="snooze-button" id="snoozeButton" data-i18n="popupSnooze">Snooze</button>
+    <button class="preview-button" id="previewButton" data-i18n="popupPreview">Test it now</button>
 
     <hr class="divider">
 
     <section class="pomodoro">
       <div class="pomodoro-header">
-        <span class="popup-title">🍅 Помодоро</span>
+        <span class="popup-title" data-i18n="popupPomodoroTitle">Pomodoro</span>
         <span class="pomodoro-cycles" id="pomodoroCycles"></span>
       </div>
-      <p class="next-reminder" id="pomodoroStatus">Не запущено</p>
-      <button class="pomodoro-button" id="pomodoroButton">Запустить</button>
+      <p class="next-reminder" id="pomodoroStatus"></p>
+      <button class="pomodoro-button" id="pomodoroButton"></button>
     </section>
 
     <hr class="divider">
 
     <section class="stats">
       <div class="stats-header">
-        <span class="popup-title">📊 Отдыхов</span>
+        <span class="popup-title" data-i18n="popupStatsTitle">Rests</span>
         <span class="stats-summary" id="statsSummary">—</span>
       </div>
       <div class="stats-chart" id="statsChart"></div>
     </section>
 
     <footer class="popup-footer">
-      <button class="settings-link" id="settingsLink">⚙ Настройки</button>
+      <button class="settings-link" id="settingsLink" data-i18n="popupSettings">Settings</button>
     </footer>
   </main>
   <script type="module" src="popup.js"></script>

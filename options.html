@@ -1,63 +1,60 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en" data-i18n-title="optionsTitle">
 <head>
   <meta charset="UTF-8">
-  <title>Настройки — Отдых для глаз</title>
+  <title>Eye Rest — settings</title>
   <link rel="stylesheet" href="options.css">
 </head>
 <body>
   <main class="options">
     <header class="options-header">
       <img src="icons/icon48.png" alt="" class="options-icon">
-      <h1 class="options-title">Отдых для глаз — настройки</h1>
+      <h1 class="options-title" data-i18n="optionsTitle"></h1>
     </header>
 
     <section class="card">
-      <h2 class="card-title">👀 Напоминания для глаз</h2>
+      <h2 class="card-title" data-i18n="cardEyes"></h2>
 
       <div class="field">
         <label class="field-label" for="eyeIntervalMinutes">
-          Напоминать каждые
-          <span class="field-hint">по правилу 20-20-20 — каждые 20 минут</span>
+          <span data-i18n="fieldInterval"></span>
+          <span class="field-hint" data-i18n="fieldIntervalHint"></span>
         </label>
         <div class="field-control">
           <input type="number" id="eyeIntervalMinutes" min="1" max="180">
-          <span class="field-unit">мин</span>
+          <span class="field-unit" data-i18n="unitMinutes"></span>
         </div>
       </div>
 
       <div class="field">
         <label class="field-label" for="restSeconds">
-          Длительность отдыха
-          <span class="field-hint">сколько секунд смотреть вдаль</span>
+          <span data-i18n="fieldRestSeconds"></span>
+          <span class="field-hint" data-i18n="fieldRestSecondsHint"></span>
         </label>
         <div class="field-control">
           <input type="number" id="restSeconds" min="5" max="300">
-          <span class="field-unit">сек</span>
+          <span class="field-unit" data-i18n="unitSeconds"></span>
         </div>
       </div>
 
       <div class="field">
         <label class="field-label" for="notificationType">
-          Как напоминать
-          <span class="field-hint">окно с инструкцией труднее проигнорировать</span>
+          <span data-i18n="fieldNotificationType"></span>
+          <span class="field-hint" data-i18n="fieldNotificationTypeHint"></span>
         </label>
         <div class="field-control">
           <select id="notificationType">
-            <option value="overlay">Окно с инструкцией 20-20-20</option>
-            <option value="notification">Системное уведомление</option>
-            <option value="both">И окно, и уведомление</option>
+            <option value="overlay" data-i18n="optionOverlay"></option>
+            <option value="notification" data-i18n="optionNotification"></option>
+            <option value="both" data-i18n="optionBoth"></option>
           </select>
         </div>
       </div>
 
       <div class="field">
         <label class="field-label" for="isSoundEnabled">
-          Звук
-          <span class="field-hint">
-            сигнал в окне отдыха. В режиме «системное уведомление»
-            звук играет сама система
-          </span>
+          <span data-i18n="fieldSound"></span>
+          <span class="field-hint" data-i18n="fieldSoundHint"></span>
         </label>
         <div class="field-control">
           <input type="checkbox" id="isSoundEnabled" class="field-checkbox">
@@ -66,63 +63,61 @@
 
       <div class="field">
         <label class="field-label" for="soundName">
-          Какой звук
-          <span class="field-hint">нажми «Прослушать», чтобы выбрать на слух</span>
+          <span data-i18n="fieldSoundName"></span>
+          <span class="field-hint" data-i18n="fieldSoundNameHint"></span>
         </label>
         <div class="field-control">
           <select id="soundName"></select>
-          <button class="play-button" id="playSoundButton" type="button">▶ Прослушать</button>
+          <button class="play-button" id="playSoundButton" type="button" data-i18n="playSound"></button>
         </div>
       </div>
 
-      <button class="preview-button" id="previewButton">Показать окно отдыха сейчас</button>
+      <button class="preview-button" id="previewButton" data-i18n="previewRestButton"></button>
     </section>
 
     <section class="card">
-      <h2 class="card-title">🍅 Помодоро</h2>
+      <h2 class="card-title" data-i18n="cardPomodoro"></h2>
 
       <div class="field">
-        <label class="field-label" for="workMinutes">Работа</label>
+        <label class="field-label" for="workMinutes" data-i18n="fieldWork"></label>
         <div class="field-control">
           <input type="number" id="workMinutes" min="1" max="180">
-          <span class="field-unit">мин</span>
+          <span class="field-unit" data-i18n="unitMinutes"></span>
         </div>
       </div>
 
       <div class="field">
-        <label class="field-label" for="shortBreakMinutes">Короткий перерыв</label>
+        <label class="field-label" for="shortBreakMinutes" data-i18n="fieldShortBreak"></label>
         <div class="field-control">
           <input type="number" id="shortBreakMinutes" min="1" max="60">
-          <span class="field-unit">мин</span>
+          <span class="field-unit" data-i18n="unitMinutes"></span>
         </div>
       </div>
 
       <div class="field">
-        <label class="field-label" for="longBreakMinutes">Длинный перерыв</label>
+        <label class="field-label" for="longBreakMinutes" data-i18n="fieldLongBreak"></label>
         <div class="field-control">
           <input type="number" id="longBreakMinutes" min="1" max="120">
-          <span class="field-unit">мин</span>
+          <span class="field-unit" data-i18n="unitMinutes"></span>
         </div>
       </div>
 
       <div class="field">
-        <label class="field-label" for="cyclesBeforeLongBreak">
-          Циклов до длинного перерыва
-        </label>
+        <label class="field-label" for="cyclesBeforeLongBreak" data-i18n="fieldCycles"></label>
         <div class="field-control">
           <input type="number" id="cyclesBeforeLongBreak" min="2" max="12">
-          <span class="field-unit">шт</span>
+          <span class="field-unit" data-i18n="unitCount"></span>
         </div>
       </div>
     </section>
 
     <section class="card">
-      <h2 class="card-title">📊 Статистика</h2>
-      <p class="stats-line" id="statsLine">Загружаю…</p>
-      <button class="danger-button" id="resetStatsButton">Сбросить статистику</button>
+      <h2 class="card-title" data-i18n="cardStats"></h2>
+      <p class="stats-line" id="statsLine"></p>
+      <button class="danger-button" id="resetStatsButton" data-i18n="resetStats"></button>
     </section>
 
-    <p class="saved-toast" id="savedToast" hidden>Сохранено ✓</p>
+    <p class="saved-toast" id="savedToast" hidden data-i18n="saved"></p>
   </main>
   <script type="module" src="options.js"></script>
 </body>

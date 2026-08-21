@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Отдых для глаз 20-20-20",
-  "description": "Правило 20-20-20 для глаз + помодоро-таймер. Каждые 20 минут напоминает посмотреть вдаль на 20 секунд.",
-  "version": "1.4.0",
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDescription__",
+  "default_locale": "en",
+  "version": "1.5.0",
   "permissions": ["alarms", "notifications", "storage", "idle"],
   "background": {
     "service_worker": "background.js",
