@@ -18,7 +18,8 @@ Max 132 characters. Shown in search results.
 ```
 Gentle eye-break reminders based on the 20-20-20 rule, plus a Pomodoro timer. Fully offline, no account needed.
 ```
-(110 characters.)
+(110 characters.) Translations of this line for the other 15 languages are in
+`store/DESCRIPTIONS.md`, one code block per language.
 
 ### Detailed description
 
