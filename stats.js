@@ -53,19 +53,35 @@ function prune(dailyRests) {
   return Object.fromEntries(keptKeys.map((key) => [key, dailyRests[key]]));
 }
 
+// Столбик в графике узкий (~33px). В части языков сокращённое название дня
+// в него не влезает («الأربعاء», «शुक्र», «Thứ 4») — там берём однобуквенный формат.
+const MAX_WEEKDAY_LABEL_LENGTH = 4;
+
+function getWeekdayFormat(dates, locale) {
+  const longest = Math.max(
+    ...dates.map((date) => date.toLocaleDateString(locale, { weekday: 'short' }).length),
+  );
+  return longest > MAX_WEEKDAY_LABEL_LENGTH ? 'narrow' : 'short';
+}
+
 /** Последние N дней (включая сегодня) для столбиков в попапе. */
 export function getRecentDays(stats, days) {
   const locale = getUiLocale();
-  const result = [];
+
+  const dates = [];
   for (let daysAgo = days - 1; daysAgo >= 0; daysAgo -= 1) {
     const date = new Date();
     date.setDate(date.getDate() - daysAgo);
+    dates.push(date);
+  }
+
+  const weekday = getWeekdayFormat(dates, locale);
+  return dates.map((date) => {
     const key = getDayKey(date);
-    result.push({
+    return {
       key,
       count: stats.dailyRests[key] ?? 0,
-      weekdayLabel: date.toLocaleDateString(locale, { weekday: 'short' }),
-    });
-  }
-  return result;
+      weekdayLabel: date.toLocaleDateString(locale, { weekday }),
+    };
+  });
 }

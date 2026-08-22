@@ -19,7 +19,8 @@ Max 132 characters. Shown in search results.
 Gentle eye-break reminders based on the 20-20-20 rule, plus a Pomodoro timer. Fully offline, no account needed.
 ```
 (110 characters.) Translations of this line for the other 15 languages are in
-`store/DESCRIPTIONS.md`, one code block per language.
+`store/DESCRIPTIONS.md`, one code block per language. The detailed description is
+translated the same way in `store/FULL_DESCRIPTIONS.md`.
 
 ### Detailed description
 
@@ -75,15 +76,14 @@ shown to each user also come from these locale files, so a German user sees
 | Asset | File | Size | Status |
 |---|---|---|---|
 | Store icon | `chrome_web_store_assets/store_icon_128x128.png` | 128×128 | ready |
-| Screenshot 1 | `store/screenshots/1-rest-window.png` | 1280×800 | ready |
-| Screenshot 2 | `store/screenshots/2-popup.png` | 1280×800 | ready |
-| Screenshot 3 | `store/screenshots/3-settings.png` | 1280×800 | ready |
-| Screenshot 4 | `store/screenshots/4-pomodoro-break.png` | 1280×800 | ready |
-| Screenshot 5 | `store/screenshots/5-privacy-stats.png` | 1280×800 | ready |
+| Screenshots (English) | `store/screenshots/en/` — 5 files | 1280×800 | ready |
+| Screenshots (15 other languages) | `store/screenshots/<locale>/` — 2 files each | 1280×800 | ready |
 | Small promo tile | `chrome_web_store_assets/small_promo_440x280.png` | 440×280 | ready |
 | Marquee promo tile | `chrome_web_store_assets/large_promo_1400x560.png` | 1400×560 | ready |
 
-All screenshots are 24-bit PNG with no alpha channel, as the store requires.
+All 35 screenshots are 1280×800, 24-bit PNG with no alpha channel, as the store
+requires. Each locale folder holds screenshots rendered with that language's
+interface — upload them on the corresponding language's listing tab.
 
 ---
 
