@@ -1,0 +1,276 @@
+{
+  "appName": {
+    "message": "Göz Molası 20-20-20"
+  },
+  "appDescription": {
+    "message": "20-20-20 kuralına göre göz molası hatırlatmaları ve Pomodoro zamanlayıcısı. Her şey cihazınızda kalır."
+  },
+  "popupEyeTitle": {
+    "message": "👀 Göz Molası"
+  },
+  "popupSnooze": {
+    "message": "5 dakika ertele"
+  },
+  "popupPreview": {
+    "message": "Şimdi dene"
+  },
+  "popupPomodoroTitle": {
+    "message": "🍅 Pomodoro"
+  },
+  "popupStatsTitle": {
+    "message": "📊 Molalar"
+  },
+  "popupSettings": {
+    "message": "⚙ Ayarlar"
+  },
+  "reminderNext": {
+    "message": "Sonraki hatırlatma ~$MINUTES$ dk sonra",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "reminderOff": {
+    "message": "Hatırlatmalar kapalı"
+  },
+  "reminderPaused": {
+    "message": "Pomodoro çalışırken duraklatıldı"
+  },
+  "pomodoroIdle": {
+    "message": "Başlatılmadı"
+  },
+  "pomodoroStart": {
+    "message": "Başlat ($WORK$ / $BREAK$)",
+    "placeholders": {
+      "work": {
+        "content": "$1"
+      },
+      "break": {
+        "content": "$2"
+      }
+    }
+  },
+  "pomodoroStop": {
+    "message": "Durdur"
+  },
+  "pomodoroCycles": {
+    "message": "tur: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "phaseWork": {
+    "message": "Odak"
+  },
+  "phaseBreak": {
+    "message": "Mola"
+  },
+  "phaseLongBreak": {
+    "message": "Uzun mola"
+  },
+  "statsSummary": {
+    "message": "bugün $TODAY$ · toplam $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "restBrand": {
+    "message": "Göz Molası"
+  },
+  "restEyeTitle": {
+    "message": "Uzağa bak"
+  },
+  "restEyeSubtitle": {
+    "message": "Yaklaşık 6 metre uzakta bir şey seç ve gözlerini orada dinlendir"
+  },
+  "restBreakTitle": {
+    "message": "Mola 🍅"
+  },
+  "restBreakSubtitle": {
+    "message": "Ayağa kalk, gerin, gözlerini dinlendir"
+  },
+  "restLongBreakTitle": {
+    "message": "Uzun mola 🍅"
+  },
+  "restLongBreakSubtitle": {
+    "message": "Ekrandan uzaklaş, sırtını ve boynunu gerin"
+  },
+  "restDone": {
+    "message": "Tamam"
+  },
+  "restSkip": {
+    "message": "Atla (Esc)"
+  },
+  "sceneScreen": {
+    "message": "ekranın"
+  },
+  "sceneDistance": {
+    "message": "≈ 6 m (20 fit)"
+  },
+  "sceneWindow": {
+    "message": "uzaktaki bir şey"
+  },
+  "stepWork": {
+    "message": "dakika çalışma"
+  },
+  "stepDistance": {
+    "message": "fit ≈ 6 metre"
+  },
+  "stepSeconds": {
+    "message": "saniye bakma"
+  },
+  "optionsTitle": {
+    "message": "Göz Molası — ayarlar"
+  },
+  "cardEyes": {
+    "message": "👀 Göz hatırlatmaları"
+  },
+  "fieldInterval": {
+    "message": "Hatırlatma aralığı"
+  },
+  "fieldIntervalHint": {
+    "message": "20-20-20 kuralı yani her 20 dakikada bir"
+  },
+  "fieldRestSeconds": {
+    "message": "Mola süresi"
+  },
+  "fieldRestSecondsHint": {
+    "message": "kaç saniye uzağa bakılacak"
+  },
+  "fieldNotificationType": {
+    "message": "Nasıl hatırlatılsın"
+  },
+  "fieldNotificationTypeHint": {
+    "message": "yönergeli bir pencereyi görmezden gelmek daha zordur"
+  },
+  "optionOverlay": {
+    "message": "20-20-20 yönergeli pencere"
+  },
+  "optionNotification": {
+    "message": "Sistem bildirimi"
+  },
+  "optionBoth": {
+    "message": "Hem pencere hem bildirim"
+  },
+  "fieldSound": {
+    "message": "Ses"
+  },
+  "fieldSoundHint": {
+    "message": "mola penceresinde çalar. «Sistem bildirimi» seçilirse ses işletim sisteminden gelir"
+  },
+  "fieldSoundName": {
+    "message": "Hangi ses"
+  },
+  "fieldSoundNameHint": {
+    "message": "«Çal» düğmesine basıp kulağınla seç"
+  },
+  "playSound": {
+    "message": "▶ Çal"
+  },
+  "previewRestButton": {
+    "message": "Mola penceresini şimdi göster"
+  },
+  "cardPomodoro": {
+    "message": "🍅 Pomodoro"
+  },
+  "fieldWork": {
+    "message": "Odak"
+  },
+  "fieldShortBreak": {
+    "message": "Kısa mola"
+  },
+  "fieldLongBreak": {
+    "message": "Uzun mola"
+  },
+  "fieldCycles": {
+    "message": "Uzun moladan önceki tur sayısı"
+  },
+  "cardStats": {
+    "message": "📊 İstatistikler"
+  },
+  "statsLine": {
+    "message": "Bugün: $TODAY$ · Toplam mola: $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "resetStats": {
+    "message": "İstatistikleri sıfırla"
+  },
+  "resetStatsConfirm": {
+    "message": "Tüm mola istatistikleri silinsin mi? Bu geri alınamaz."
+  },
+  "saved": {
+    "message": "Kaydedildi ✓"
+  },
+  "unitMinutes": {
+    "message": "dk"
+  },
+  "unitSeconds": {
+    "message": "sn"
+  },
+  "soundChime": {
+    "message": "Çıngırak"
+  },
+  "soundBell": {
+    "message": "Çan"
+  },
+  "soundMarimba": {
+    "message": "Marimba"
+  },
+  "soundDrop": {
+    "message": "Damla"
+  },
+  "soundSoft": {
+    "message": "Yumuşak"
+  },
+  "notifyEyeTitle": {
+    "message": "Gözlerini dinlendirme vakti 👀"
+  },
+  "notifyEyeMessage": {
+    "message": "Yaklaşık 6 metre uzaktaki bir şeye $SECONDS$ saniye bak.",
+    "placeholders": {
+      "seconds": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyEyeButton": {
+    "message": "Zamanlayıcıyı göster"
+  },
+  "notifyBreakTitle": {
+    "message": "Mola: $MINUTES$ dk 🍅",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyBreakMessage": {
+    "message": "Ayağa kalk, gerin, uzağa bak."
+  },
+  "notifyWorkTitle": {
+    "message": "Mola bitti 🍅"
+  },
+  "notifyWorkMessage": {
+    "message": "İşe dönelim — $MINUTES$ dakika odak.",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "appName": {
+    "message": "Istirahat Mata 20-20-20"
+  },
+  "appDescription": {
+    "message": "Pengingat istirahat mata dengan aturan 20-20-20, plus timer Pomodoro. Semua data tetap di perangkat Anda."
+  },
+  "popupEyeTitle": {
+    "message": "👀 Istirahat Mata"
+  },
+  "popupSnooze": {
+    "message": "Tunda 5 menit"
+  },
+  "popupPreview": {
+    "message": "Coba sekarang"
+  },
+  "popupPomodoroTitle": {
+    "message": "🍅 Pomodoro"
+  },
+  "popupStatsTitle": {
+    "message": "📊 Istirahat"
+  },
+  "popupSettings": {
+    "message": "⚙ Pengaturan"
+  },
+  "reminderNext": {
+    "message": "Pengingat berikutnya ~$MINUTES$ menit lagi",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "reminderOff": {
+    "message": "Pengingat dimatikan"
+  },
+  "reminderPaused": {
+    "message": "Dijeda selama Pomodoro berjalan"
+  },
+  "pomodoroIdle": {
+    "message": "Belum berjalan"
+  },
+  "pomodoroStart": {
+    "message": "Mulai ($WORK$ / $BREAK$)",
+    "placeholders": {
+      "work": {
+        "content": "$1"
+      },
+      "break": {
+        "content": "$2"
+      }
+    }
+  },
+  "pomodoroStop": {
+    "message": "Berhenti"
+  },
+  "pomodoroCycles": {
+    "message": "siklus: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "phaseWork": {
+    "message": "Fokus"
+  },
+  "phaseBreak": {
+    "message": "Istirahat"
+  },
+  "phaseLongBreak": {
+    "message": "Istirahat panjang"
+  },
+  "statsSummary": {
+    "message": "hari ini $TODAY$ · total $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "restBrand": {
+    "message": "Istirahat Mata"
+  },
+  "restEyeTitle": {
+    "message": "Lihat ke kejauhan"
+  },
+  "restEyeSubtitle": {
+    "message": "Pilih sesuatu sekitar 6 meter jauhnya dan istirahatkan mata di sana"
+  },
+  "restBreakTitle": {
+    "message": "Istirahat 🍅"
+  },
+  "restBreakSubtitle": {
+    "message": "Berdiri, regangkan badan, istirahatkan mata"
+  },
+  "restLongBreakTitle": {
+    "message": "Istirahat panjang 🍅"
+  },
+  "restLongBreakSubtitle": {
+    "message": "Menjauh dari layar, regangkan punggung dan leher"
+  },
+  "restDone": {
+    "message": "Selesai"
+  },
+  "restSkip": {
+    "message": "Lewati (Esc)"
+  },
+  "sceneScreen": {
+    "message": "layar Anda"
+  },
+  "sceneDistance": {
+    "message": "≈ 6 m (20 kaki)"
+  },
+  "sceneWindow": {
+    "message": "sesuatu yang jauh"
+  },
+  "stepWork": {
+    "message": "menit bekerja"
+  },
+  "stepDistance": {
+    "message": "kaki ≈ 6 meter"
+  },
+  "stepSeconds": {
+    "message": "detik memandang"
+  },
+  "optionsTitle": {
+    "message": "Istirahat Mata — pengaturan"
+  },
+  "cardEyes": {
+    "message": "👀 Pengingat mata"
+  },
+  "fieldInterval": {
+    "message": "Ingatkan setiap"
+  },
+  "fieldIntervalHint": {
+    "message": "aturan 20-20-20 berarti setiap 20 menit"
+  },
+  "fieldRestSeconds": {
+    "message": "Lama istirahat"
+  },
+  "fieldRestSecondsHint": {
+    "message": "berapa detik mengalihkan pandangan"
+  },
+  "fieldNotificationType": {
+    "message": "Cara mengingatkan"
+  },
+  "fieldNotificationTypeHint": {
+    "message": "jendela berisi panduan lebih sulit diabaikan"
+  },
+  "optionOverlay": {
+    "message": "Jendela dengan panduan 20-20-20"
+  },
+  "optionNotification": {
+    "message": "Notifikasi sistem"
+  },
+  "optionBoth": {
+    "message": "Jendela dan notifikasi"
+  },
+  "fieldSound": {
+    "message": "Suara"
+  },
+  "fieldSoundHint": {
+    "message": "berbunyi di jendela istirahat. Dengan «Notifikasi sistem», suara berasal dari sistem operasi"
+  },
+  "fieldSoundName": {
+    "message": "Suara mana"
+  },
+  "fieldSoundNameHint": {
+    "message": "tekan «Putar» untuk memilih dengan mendengarkan"
+  },
+  "playSound": {
+    "message": "▶ Putar"
+  },
+  "previewRestButton": {
+    "message": "Tampilkan jendela istirahat sekarang"
+  },
+  "cardPomodoro": {
+    "message": "🍅 Pomodoro"
+  },
+  "fieldWork": {
+    "message": "Fokus"
+  },
+  "fieldShortBreak": {
+    "message": "Istirahat singkat"
+  },
+  "fieldLongBreak": {
+    "message": "Istirahat panjang"
+  },
+  "fieldCycles": {
+    "message": "Siklus sebelum istirahat panjang"
+  },
+  "cardStats": {
+    "message": "📊 Statistik"
+  },
+  "statsLine": {
+    "message": "Hari ini: $TODAY$ · Total istirahat: $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "resetStats": {
+    "message": "Setel ulang statistik"
+  },
+  "resetStatsConfirm": {
+    "message": "Hapus semua statistik istirahat? Tindakan ini tidak bisa dibatalkan."
+  },
+  "saved": {
+    "message": "Tersimpan ✓"
+  },
+  "unitMinutes": {
+    "message": "mnt"
+  },
+  "unitSeconds": {
+    "message": "dtk"
+  },
+  "soundChime": {
+    "message": "Lonceng angin"
+  },
+  "soundBell": {
+    "message": "Bel"
+  },
+  "soundMarimba": {
+    "message": "Marimba"
+  },
+  "soundDrop": {
+    "message": "Tetesan"
+  },
+  "soundSoft": {
+    "message": "Lembut"
+  },
+  "notifyEyeTitle": {
+    "message": "Saatnya mengistirahatkan mata 👀"
+  },
+  "notifyEyeMessage": {
+    "message": "Pandang sesuatu sekitar 6 meter jauhnya selama $SECONDS$ detik.",
+    "placeholders": {
+      "seconds": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyEyeButton": {
+    "message": "Tampilkan timer"
+  },
+  "notifyBreakTitle": {
+    "message": "Istirahat: $MINUTES$ menit 🍅",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyBreakMessage": {
+    "message": "Berdiri, regangkan badan, lihat ke kejauhan."
+  },
+  "notifyWorkTitle": {
+    "message": "Istirahat selesai 🍅"
+  },
+  "notifyWorkMessage": {
+    "message": "Kembali bekerja — $MINUTES$ menit fokus.",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  }
+}

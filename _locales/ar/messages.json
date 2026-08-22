@@ -1,0 +1,276 @@
+{
+  "appName": {
+    "message": "راحة العين 20-20-20"
+  },
+  "appDescription": {
+    "message": "تذكيرات لإراحة العين وفق قاعدة 20-20-20، مع مؤقت بومودورو. كل البيانات تبقى على جهازك."
+  },
+  "popupEyeTitle": {
+    "message": "👀 راحة العين"
+  },
+  "popupSnooze": {
+    "message": "تأجيل 5 دقائق"
+  },
+  "popupPreview": {
+    "message": "جرّبه الآن"
+  },
+  "popupPomodoroTitle": {
+    "message": "🍅 بومودورو"
+  },
+  "popupStatsTitle": {
+    "message": "📊 فترات الراحة"
+  },
+  "popupSettings": {
+    "message": "⚙ الإعدادات"
+  },
+  "reminderNext": {
+    "message": "التذكير التالي بعد $MINUTES$ دقيقة تقريبًا",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "reminderOff": {
+    "message": "التذكيرات متوقفة"
+  },
+  "reminderPaused": {
+    "message": "موقوف مؤقتًا أثناء عمل بومودورو"
+  },
+  "pomodoroIdle": {
+    "message": "غير مُشغَّل"
+  },
+  "pomodoroStart": {
+    "message": "ابدأ ($WORK$ / $BREAK$)",
+    "placeholders": {
+      "work": {
+        "content": "$1"
+      },
+      "break": {
+        "content": "$2"
+      }
+    }
+  },
+  "pomodoroStop": {
+    "message": "إيقاف"
+  },
+  "pomodoroCycles": {
+    "message": "الدورات: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "phaseWork": {
+    "message": "تركيز"
+  },
+  "phaseBreak": {
+    "message": "استراحة"
+  },
+  "phaseLongBreak": {
+    "message": "استراحة طويلة"
+  },
+  "statsSummary": {
+    "message": "اليوم $TODAY$ · الإجمالي $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "restBrand": {
+    "message": "راحة العين"
+  },
+  "restEyeTitle": {
+    "message": "انظر إلى البعيد"
+  },
+  "restEyeSubtitle": {
+    "message": "اختر شيئًا على بُعد ستة أمتار تقريبًا وأرِح عينيك عليه"
+  },
+  "restBreakTitle": {
+    "message": "استراحة 🍅"
+  },
+  "restBreakSubtitle": {
+    "message": "قف، تمدَّد، وأرِح عينيك"
+  },
+  "restLongBreakTitle": {
+    "message": "استراحة طويلة 🍅"
+  },
+  "restLongBreakSubtitle": {
+    "message": "ابتعد عن الشاشة ومدِّد ظهرك ورقبتك"
+  },
+  "restDone": {
+    "message": "تم"
+  },
+  "restSkip": {
+    "message": "تخطٍّ (Esc)"
+  },
+  "sceneScreen": {
+    "message": "شاشتك"
+  },
+  "sceneDistance": {
+    "message": "≈ 6 أمتار (20 قدمًا)"
+  },
+  "sceneWindow": {
+    "message": "شيء بعيد"
+  },
+  "stepWork": {
+    "message": "دقيقة عمل"
+  },
+  "stepDistance": {
+    "message": "قدمًا ≈ 6 أمتار"
+  },
+  "stepSeconds": {
+    "message": "ثانية من النظر"
+  },
+  "optionsTitle": {
+    "message": "راحة العين — الإعدادات"
+  },
+  "cardEyes": {
+    "message": "👀 تذكيرات العين"
+  },
+  "fieldInterval": {
+    "message": "ذكّرني كل"
+  },
+  "fieldIntervalHint": {
+    "message": "قاعدة 20-20-20 تعني كل 20 دقيقة"
+  },
+  "fieldRestSeconds": {
+    "message": "مدة الراحة"
+  },
+  "fieldRestSecondsHint": {
+    "message": "كم ثانية تُبعد نظرك"
+  },
+  "fieldNotificationType": {
+    "message": "طريقة التذكير"
+  },
+  "fieldNotificationTypeHint": {
+    "message": "النافذة التي تعرض الإرشادات يصعب تجاهلها"
+  },
+  "optionOverlay": {
+    "message": "نافذة بإرشادات 20-20-20"
+  },
+  "optionNotification": {
+    "message": "إشعار النظام"
+  },
+  "optionBoth": {
+    "message": "النافذة والإشعار معًا"
+  },
+  "fieldSound": {
+    "message": "الصوت"
+  },
+  "fieldSoundHint": {
+    "message": "يُشغَّل في نافذة الراحة. مع «إشعار النظام» يأتي الصوت من نظام التشغيل"
+  },
+  "fieldSoundName": {
+    "message": "أي صوت"
+  },
+  "fieldSoundNameHint": {
+    "message": "اضغط «تشغيل» لتختار بأذنك"
+  },
+  "playSound": {
+    "message": "▶ تشغيل"
+  },
+  "previewRestButton": {
+    "message": "اعرض نافذة الراحة الآن"
+  },
+  "cardPomodoro": {
+    "message": "🍅 بومودورو"
+  },
+  "fieldWork": {
+    "message": "تركيز"
+  },
+  "fieldShortBreak": {
+    "message": "استراحة قصيرة"
+  },
+  "fieldLongBreak": {
+    "message": "استراحة طويلة"
+  },
+  "fieldCycles": {
+    "message": "عدد الدورات قبل الاستراحة الطويلة"
+  },
+  "cardStats": {
+    "message": "📊 الإحصاءات"
+  },
+  "statsLine": {
+    "message": "اليوم: $TODAY$ · إجمالي فترات الراحة: $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "resetStats": {
+    "message": "إعادة ضبط الإحصاءات"
+  },
+  "resetStatsConfirm": {
+    "message": "هل تريد مسح كل إحصاءات الراحة؟ لا يمكن التراجع عن ذلك."
+  },
+  "saved": {
+    "message": "تم الحفظ ✓"
+  },
+  "unitMinutes": {
+    "message": "دقيقة"
+  },
+  "unitSeconds": {
+    "message": "ثانية"
+  },
+  "soundChime": {
+    "message": "جرس خفيف"
+  },
+  "soundBell": {
+    "message": "جرس"
+  },
+  "soundMarimba": {
+    "message": "ماريمبا"
+  },
+  "soundDrop": {
+    "message": "قطرة"
+  },
+  "soundSoft": {
+    "message": "ناعم"
+  },
+  "notifyEyeTitle": {
+    "message": "حان وقت إراحة عينيك 👀"
+  },
+  "notifyEyeMessage": {
+    "message": "انظر إلى شيء على بُعد ستة أمتار تقريبًا لمدة $SECONDS$ ثانية.",
+    "placeholders": {
+      "seconds": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyEyeButton": {
+    "message": "اعرض المؤقت"
+  },
+  "notifyBreakTitle": {
+    "message": "استراحة: $MINUTES$ دقيقة 🍅",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyBreakMessage": {
+    "message": "قف، تمدَّد، وانظر إلى البعيد."
+  },
+  "notifyWorkTitle": {
+    "message": "انتهت الاستراحة 🍅"
+  },
+  "notifyWorkMessage": {
+    "message": "عُد إلى العمل — $MINUTES$ دقيقة من التركيز.",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  }
+}

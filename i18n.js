@@ -23,4 +23,6 @@ export function applyI18n(root = document) {
   }
 
   document.documentElement.lang = chrome.i18n.getUILanguage();
+  // Для арабского и других RTL-языков Chrome отдаёт 'rtl' в @@bidi_dir
+  document.documentElement.dir = t('@@bidi_dir') || 'ltr';
 }

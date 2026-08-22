@@ -1,0 +1,276 @@
+{
+  "appName": {
+    "message": "눈 휴식 20-20-20"
+  },
+  "appDescription": {
+    "message": "20-20-20 규칙에 따라 눈 휴식을 알려주고 뽀모도로 타이머도 제공합니다. 모든 데이터는 기기에만 남습니다."
+  },
+  "popupEyeTitle": {
+    "message": "👀 눈 휴식"
+  },
+  "popupSnooze": {
+    "message": "5분 뒤에 다시 알림"
+  },
+  "popupPreview": {
+    "message": "지금 확인해보기"
+  },
+  "popupPomodoroTitle": {
+    "message": "🍅 뽀모도로"
+  },
+  "popupStatsTitle": {
+    "message": "📊 휴식 횟수"
+  },
+  "popupSettings": {
+    "message": "⚙ 설정"
+  },
+  "reminderNext": {
+    "message": "다음 알림까지 약 $MINUTES$분",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "reminderOff": {
+    "message": "알림이 꺼져 있습니다"
+  },
+  "reminderPaused": {
+    "message": "뽀모도로가 진행되는 동안 일시정지"
+  },
+  "pomodoroIdle": {
+    "message": "실행 중이 아님"
+  },
+  "pomodoroStart": {
+    "message": "시작 ($WORK$ / $BREAK$)",
+    "placeholders": {
+      "work": {
+        "content": "$1"
+      },
+      "break": {
+        "content": "$2"
+      }
+    }
+  },
+  "pomodoroStop": {
+    "message": "중지"
+  },
+  "pomodoroCycles": {
+    "message": "사이클: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "phaseWork": {
+    "message": "집중"
+  },
+  "phaseBreak": {
+    "message": "휴식"
+  },
+  "phaseLongBreak": {
+    "message": "긴 휴식"
+  },
+  "statsSummary": {
+    "message": "오늘 $TODAY$ · 전체 $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "restBrand": {
+    "message": "눈 휴식"
+  },
+  "restEyeTitle": {
+    "message": "먼 곳을 바라보세요"
+  },
+  "restEyeSubtitle": {
+    "message": "6미터쯤 떨어진 것을 골라 그곳에 시선을 두세요"
+  },
+  "restBreakTitle": {
+    "message": "휴식 🍅"
+  },
+  "restBreakSubtitle": {
+    "message": "일어나서 스트레칭하고 눈을 쉬게 해주세요"
+  },
+  "restLongBreakTitle": {
+    "message": "긴 휴식 🍅"
+  },
+  "restLongBreakSubtitle": {
+    "message": "화면에서 멀어져 허리와 목을 펴주세요"
+  },
+  "restDone": {
+    "message": "완료"
+  },
+  "restSkip": {
+    "message": "건너뛰기 (Esc)"
+  },
+  "sceneScreen": {
+    "message": "작업 화면"
+  },
+  "sceneDistance": {
+    "message": "약 6m (20피트)"
+  },
+  "sceneWindow": {
+    "message": "멀리 있는 것"
+  },
+  "stepWork": {
+    "message": "분 작업"
+  },
+  "stepDistance": {
+    "message": "피트 ≈ 6미터"
+  },
+  "stepSeconds": {
+    "message": "초 동안 바라보기"
+  },
+  "optionsTitle": {
+    "message": "눈 휴식 — 설정"
+  },
+  "cardEyes": {
+    "message": "👀 눈 휴식 알림"
+  },
+  "fieldInterval": {
+    "message": "알림 간격"
+  },
+  "fieldIntervalHint": {
+    "message": "20-20-20 규칙은 20분마다입니다"
+  },
+  "fieldRestSeconds": {
+    "message": "휴식 시간"
+  },
+  "fieldRestSecondsHint": {
+    "message": "몇 초 동안 시선을 돌릴지"
+  },
+  "fieldNotificationType": {
+    "message": "알림 방식"
+  },
+  "fieldNotificationTypeHint": {
+    "message": "안내가 있는 창은 무시하기 더 어렵습니다"
+  },
+  "optionOverlay": {
+    "message": "20-20-20 안내 창"
+  },
+  "optionNotification": {
+    "message": "시스템 알림"
+  },
+  "optionBoth": {
+    "message": "창과 알림 모두"
+  },
+  "fieldSound": {
+    "message": "소리"
+  },
+  "fieldSoundHint": {
+    "message": "휴식 창에서 재생됩니다. 「시스템 알림」에서는 운영체제 소리가 납니다"
+  },
+  "fieldSoundName": {
+    "message": "어떤 소리"
+  },
+  "fieldSoundNameHint": {
+    "message": "「재생」을 눌러 귀로 골라보세요"
+  },
+  "playSound": {
+    "message": "▶ 재생"
+  },
+  "previewRestButton": {
+    "message": "지금 휴식 창 보기"
+  },
+  "cardPomodoro": {
+    "message": "🍅 뽀모도로"
+  },
+  "fieldWork": {
+    "message": "집중"
+  },
+  "fieldShortBreak": {
+    "message": "짧은 휴식"
+  },
+  "fieldLongBreak": {
+    "message": "긴 휴식"
+  },
+  "fieldCycles": {
+    "message": "긴 휴식까지의 사이클 수"
+  },
+  "cardStats": {
+    "message": "📊 통계"
+  },
+  "statsLine": {
+    "message": "오늘: $TODAY$ · 전체 휴식: $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "resetStats": {
+    "message": "통계 초기화"
+  },
+  "resetStatsConfirm": {
+    "message": "휴식 통계를 모두 지울까요? 되돌릴 수 없습니다."
+  },
+  "saved": {
+    "message": "저장됨 ✓"
+  },
+  "unitMinutes": {
+    "message": "분"
+  },
+  "unitSeconds": {
+    "message": "초"
+  },
+  "soundChime": {
+    "message": "차임"
+  },
+  "soundBell": {
+    "message": "종"
+  },
+  "soundMarimba": {
+    "message": "마림바"
+  },
+  "soundDrop": {
+    "message": "물방울"
+  },
+  "soundSoft": {
+    "message": "부드러움"
+  },
+  "notifyEyeTitle": {
+    "message": "눈을 쉬게 할 시간이에요 👀"
+  },
+  "notifyEyeMessage": {
+    "message": "6미터쯤 떨어진 것을 $SECONDS$초 동안 바라보세요.",
+    "placeholders": {
+      "seconds": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyEyeButton": {
+    "message": "타이머 보기"
+  },
+  "notifyBreakTitle": {
+    "message": "휴식: $MINUTES$분 🍅",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyBreakMessage": {
+    "message": "일어나서 스트레칭하고 먼 곳을 보세요."
+  },
+  "notifyWorkTitle": {
+    "message": "휴식 종료 🍅"
+  },
+  "notifyWorkMessage": {
+    "message": "다시 시작해요 — $MINUTES$분 집중입니다.",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  }
+}

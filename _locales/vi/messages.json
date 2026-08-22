@@ -1,0 +1,276 @@
+{
+  "appName": {
+    "message": "Nghỉ Mắt 20-20-20"
+  },
+  "appDescription": {
+    "message": "Nhắc nghỉ mắt theo quy tắc 20-20-20, kèm hẹn giờ Pomodoro. Mọi dữ liệu chỉ nằm trên thiết bị của bạn."
+  },
+  "popupEyeTitle": {
+    "message": "👀 Nghỉ Mắt"
+  },
+  "popupSnooze": {
+    "message": "Hoãn 5 phút"
+  },
+  "popupPreview": {
+    "message": "Thử ngay"
+  },
+  "popupPomodoroTitle": {
+    "message": "🍅 Pomodoro"
+  },
+  "popupStatsTitle": {
+    "message": "📊 Lần nghỉ"
+  },
+  "popupSettings": {
+    "message": "⚙ Cài đặt"
+  },
+  "reminderNext": {
+    "message": "Nhắc lần tới sau khoảng $MINUTES$ phút",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "reminderOff": {
+    "message": "Đã tắt nhắc nhở"
+  },
+  "reminderPaused": {
+    "message": "Tạm dừng khi Pomodoro đang chạy"
+  },
+  "pomodoroIdle": {
+    "message": "Chưa chạy"
+  },
+  "pomodoroStart": {
+    "message": "Bắt đầu ($WORK$ / $BREAK$)",
+    "placeholders": {
+      "work": {
+        "content": "$1"
+      },
+      "break": {
+        "content": "$2"
+      }
+    }
+  },
+  "pomodoroStop": {
+    "message": "Dừng"
+  },
+  "pomodoroCycles": {
+    "message": "chu kỳ: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "phaseWork": {
+    "message": "Tập trung"
+  },
+  "phaseBreak": {
+    "message": "Nghỉ"
+  },
+  "phaseLongBreak": {
+    "message": "Nghỉ dài"
+  },
+  "statsSummary": {
+    "message": "hôm nay $TODAY$ · tổng $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "restBrand": {
+    "message": "Nghỉ Mắt"
+  },
+  "restEyeTitle": {
+    "message": "Nhìn ra xa"
+  },
+  "restEyeSubtitle": {
+    "message": "Chọn một vật cách khoảng 6 mét và để mắt nghỉ ở đó"
+  },
+  "restBreakTitle": {
+    "message": "Nghỉ 🍅"
+  },
+  "restBreakSubtitle": {
+    "message": "Đứng dậy, vươn vai, để mắt được nghỉ"
+  },
+  "restLongBreakTitle": {
+    "message": "Nghỉ dài 🍅"
+  },
+  "restLongBreakSubtitle": {
+    "message": "Rời khỏi màn hình, duỗi lưng và cổ"
+  },
+  "restDone": {
+    "message": "Xong"
+  },
+  "restSkip": {
+    "message": "Bỏ qua (Esc)"
+  },
+  "sceneScreen": {
+    "message": "màn hình của bạn"
+  },
+  "sceneDistance": {
+    "message": "≈ 6 m (20 ft)"
+  },
+  "sceneWindow": {
+    "message": "vật ở xa"
+  },
+  "stepWork": {
+    "message": "phút làm việc"
+  },
+  "stepDistance": {
+    "message": "ft ≈ 6 mét"
+  },
+  "stepSeconds": {
+    "message": "giây nhìn ra xa"
+  },
+  "optionsTitle": {
+    "message": "Nghỉ Mắt — cài đặt"
+  },
+  "cardEyes": {
+    "message": "👀 Nhắc nghỉ mắt"
+  },
+  "fieldInterval": {
+    "message": "Nhắc mỗi"
+  },
+  "fieldIntervalHint": {
+    "message": "quy tắc 20-20-20 nghĩa là cứ 20 phút một lần"
+  },
+  "fieldRestSeconds": {
+    "message": "Thời lượng nghỉ"
+  },
+  "fieldRestSecondsHint": {
+    "message": "nhìn ra xa bao nhiêu giây"
+  },
+  "fieldNotificationType": {
+    "message": "Cách nhắc"
+  },
+  "fieldNotificationTypeHint": {
+    "message": "cửa sổ có hướng dẫn thì khó bỏ qua hơn"
+  },
+  "optionOverlay": {
+    "message": "Cửa sổ hướng dẫn 20-20-20"
+  },
+  "optionNotification": {
+    "message": "Thông báo hệ thống"
+  },
+  "optionBoth": {
+    "message": "Cả cửa sổ và thông báo"
+  },
+  "fieldSound": {
+    "message": "Âm thanh"
+  },
+  "fieldSoundHint": {
+    "message": "phát trong cửa sổ nghỉ. Với «Thông báo hệ thống», âm thanh do hệ điều hành phát"
+  },
+  "fieldSoundName": {
+    "message": "Chọn âm thanh"
+  },
+  "fieldSoundNameHint": {
+    "message": "bấm «Phát» để nghe thử rồi chọn"
+  },
+  "playSound": {
+    "message": "▶ Phát"
+  },
+  "previewRestButton": {
+    "message": "Hiện cửa sổ nghỉ ngay"
+  },
+  "cardPomodoro": {
+    "message": "🍅 Pomodoro"
+  },
+  "fieldWork": {
+    "message": "Tập trung"
+  },
+  "fieldShortBreak": {
+    "message": "Nghỉ ngắn"
+  },
+  "fieldLongBreak": {
+    "message": "Nghỉ dài"
+  },
+  "fieldCycles": {
+    "message": "Số chu kỳ trước khi nghỉ dài"
+  },
+  "cardStats": {
+    "message": "📊 Thống kê"
+  },
+  "statsLine": {
+    "message": "Hôm nay: $TODAY$ · Tổng số lần nghỉ: $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "resetStats": {
+    "message": "Đặt lại thống kê"
+  },
+  "resetStatsConfirm": {
+    "message": "Xoá toàn bộ thống kê nghỉ? Không thể hoàn tác."
+  },
+  "saved": {
+    "message": "Đã lưu ✓"
+  },
+  "unitMinutes": {
+    "message": "phút"
+  },
+  "unitSeconds": {
+    "message": "giây"
+  },
+  "soundChime": {
+    "message": "Chuông gió"
+  },
+  "soundBell": {
+    "message": "Chuông"
+  },
+  "soundMarimba": {
+    "message": "Marimba"
+  },
+  "soundDrop": {
+    "message": "Giọt nước"
+  },
+  "soundSoft": {
+    "message": "Êm dịu"
+  },
+  "notifyEyeTitle": {
+    "message": "Đến lúc cho mắt nghỉ rồi 👀"
+  },
+  "notifyEyeMessage": {
+    "message": "Nhìn vật cách khoảng 6 mét trong $SECONDS$ giây.",
+    "placeholders": {
+      "seconds": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyEyeButton": {
+    "message": "Xem đồng hồ"
+  },
+  "notifyBreakTitle": {
+    "message": "Nghỉ: $MINUTES$ phút 🍅",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyBreakMessage": {
+    "message": "Đứng dậy, vươn vai, nhìn ra xa."
+  },
+  "notifyWorkTitle": {
+    "message": "Hết giờ nghỉ 🍅"
+  },
+  "notifyWorkMessage": {
+    "message": "Quay lại làm việc — $MINUTES$ phút tập trung.",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  }
+}

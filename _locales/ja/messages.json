@@ -1,0 +1,276 @@
+{
+  "appName": {
+    "message": "目の休憩 20-20-20"
+  },
+  "appDescription": {
+    "message": "20-20-20ルールで目の休憩をリマインドし、ポモドーロタイマーも使えます。データはすべて端末内に残ります。"
+  },
+  "popupEyeTitle": {
+    "message": "👀 目の休憩"
+  },
+  "popupSnooze": {
+    "message": "5分後に再通知"
+  },
+  "popupPreview": {
+    "message": "今すぐ試す"
+  },
+  "popupPomodoroTitle": {
+    "message": "🍅 ポモドーロ"
+  },
+  "popupStatsTitle": {
+    "message": "📊 休憩回数"
+  },
+  "popupSettings": {
+    "message": "⚙ 設定"
+  },
+  "reminderNext": {
+    "message": "次のリマインドまで約$MINUTES$分",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "reminderOff": {
+    "message": "リマインドはオフです"
+  },
+  "reminderPaused": {
+    "message": "ポモドーロ中は一時停止します"
+  },
+  "pomodoroIdle": {
+    "message": "停止中"
+  },
+  "pomodoroStart": {
+    "message": "開始（$WORK$ / $BREAK$）",
+    "placeholders": {
+      "work": {
+        "content": "$1"
+      },
+      "break": {
+        "content": "$2"
+      }
+    }
+  },
+  "pomodoroStop": {
+    "message": "停止"
+  },
+  "pomodoroCycles": {
+    "message": "サイクル: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "phaseWork": {
+    "message": "集中"
+  },
+  "phaseBreak": {
+    "message": "休憩"
+  },
+  "phaseLongBreak": {
+    "message": "長い休憩"
+  },
+  "statsSummary": {
+    "message": "今日 $TODAY$ · 合計 $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "restBrand": {
+    "message": "目の休憩"
+  },
+  "restEyeTitle": {
+    "message": "遠くを見ましょう"
+  },
+  "restEyeSubtitle": {
+    "message": "6メートルほど先のものを選んで、そこで目を休ませてください"
+  },
+  "restBreakTitle": {
+    "message": "休憩 🍅"
+  },
+  "restBreakSubtitle": {
+    "message": "立ち上がって伸びをして、目を休ませましょう"
+  },
+  "restLongBreakTitle": {
+    "message": "長い休憩 🍅"
+  },
+  "restLongBreakSubtitle": {
+    "message": "画面から離れて、背中と首を伸ばしましょう"
+  },
+  "restDone": {
+    "message": "完了"
+  },
+  "restSkip": {
+    "message": "スキップ（Esc）"
+  },
+  "sceneScreen": {
+    "message": "作業中の画面"
+  },
+  "sceneDistance": {
+    "message": "約6メートル（20フィート）"
+  },
+  "sceneWindow": {
+    "message": "遠くのもの"
+  },
+  "stepWork": {
+    "message": "分ごとに"
+  },
+  "stepDistance": {
+    "message": "フィート ≈ 6メートル"
+  },
+  "stepSeconds": {
+    "message": "秒間見る"
+  },
+  "optionsTitle": {
+    "message": "目の休憩 — 設定"
+  },
+  "cardEyes": {
+    "message": "👀 目のリマインド"
+  },
+  "fieldInterval": {
+    "message": "リマインドの間隔"
+  },
+  "fieldIntervalHint": {
+    "message": "20-20-20ルールでは20分ごとです"
+  },
+  "fieldRestSeconds": {
+    "message": "休憩の長さ"
+  },
+  "fieldRestSecondsHint": {
+    "message": "何秒間、目をそらすか"
+  },
+  "fieldNotificationType": {
+    "message": "知らせ方"
+  },
+  "fieldNotificationTypeHint": {
+    "message": "手順を示すウィンドウのほうが無視しにくくなります"
+  },
+  "optionOverlay": {
+    "message": "20-20-20の手順を表示するウィンドウ"
+  },
+  "optionNotification": {
+    "message": "システム通知"
+  },
+  "optionBoth": {
+    "message": "ウィンドウと通知の両方"
+  },
+  "fieldSound": {
+    "message": "サウンド"
+  },
+  "fieldSoundHint": {
+    "message": "休憩ウィンドウで鳴ります。「システム通知」ではOSの音が鳴ります"
+  },
+  "fieldSoundName": {
+    "message": "サウンドの種類"
+  },
+  "fieldSoundNameHint": {
+    "message": "「再生」を押して聴き比べてください"
+  },
+  "playSound": {
+    "message": "▶ 再生"
+  },
+  "previewRestButton": {
+    "message": "休憩ウィンドウを今すぐ表示"
+  },
+  "cardPomodoro": {
+    "message": "🍅 ポモドーロ"
+  },
+  "fieldWork": {
+    "message": "集中"
+  },
+  "fieldShortBreak": {
+    "message": "短い休憩"
+  },
+  "fieldLongBreak": {
+    "message": "長い休憩"
+  },
+  "fieldCycles": {
+    "message": "長い休憩までのサイクル数"
+  },
+  "cardStats": {
+    "message": "📊 統計"
+  },
+  "statsLine": {
+    "message": "今日: $TODAY$ · 休憩の合計: $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "resetStats": {
+    "message": "統計をリセット"
+  },
+  "resetStatsConfirm": {
+    "message": "休憩の統計をすべて消去しますか？元に戻せません。"
+  },
+  "saved": {
+    "message": "保存しました ✓"
+  },
+  "unitMinutes": {
+    "message": "分"
+  },
+  "unitSeconds": {
+    "message": "秒"
+  },
+  "soundChime": {
+    "message": "チャイム"
+  },
+  "soundBell": {
+    "message": "ベル"
+  },
+  "soundMarimba": {
+    "message": "マリンバ"
+  },
+  "soundDrop": {
+    "message": "しずく"
+  },
+  "soundSoft": {
+    "message": "やわらか"
+  },
+  "notifyEyeTitle": {
+    "message": "目を休める時間です 👀"
+  },
+  "notifyEyeMessage": {
+    "message": "6メートルほど先のものを$SECONDS$秒間見てください。",
+    "placeholders": {
+      "seconds": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyEyeButton": {
+    "message": "タイマーを表示"
+  },
+  "notifyBreakTitle": {
+    "message": "休憩: $MINUTES$分 🍅",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyBreakMessage": {
+    "message": "立ち上がって伸びをして、遠くを見ましょう。"
+  },
+  "notifyWorkTitle": {
+    "message": "休憩終了 🍅"
+  },
+  "notifyWorkMessage": {
+    "message": "再開しましょう — $MINUTES$分の集中です。",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  }
+}

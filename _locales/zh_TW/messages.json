@@ -1,0 +1,276 @@
+{
+  "appName": {
+    "message": "護眼休息 20-20-20"
+  },
+  "appDescription": {
+    "message": "依 20-20-20 法則提醒你休息眼睛，並附番茄鐘。所有資料都只留在你的裝置上。"
+  },
+  "popupEyeTitle": {
+    "message": "👀 護眼休息"
+  },
+  "popupSnooze": {
+    "message": "延後 5 分鐘"
+  },
+  "popupPreview": {
+    "message": "立即試試"
+  },
+  "popupPomodoroTitle": {
+    "message": "🍅 番茄鐘"
+  },
+  "popupStatsTitle": {
+    "message": "📊 休息次數"
+  },
+  "popupSettings": {
+    "message": "⚙ 設定"
+  },
+  "reminderNext": {
+    "message": "下次提醒約在 $MINUTES$ 分鐘後",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "reminderOff": {
+    "message": "提醒已關閉"
+  },
+  "reminderPaused": {
+    "message": "番茄鐘進行時暫停提醒"
+  },
+  "pomodoroIdle": {
+    "message": "未啟動"
+  },
+  "pomodoroStart": {
+    "message": "開始（$WORK$ / $BREAK$）",
+    "placeholders": {
+      "work": {
+        "content": "$1"
+      },
+      "break": {
+        "content": "$2"
+      }
+    }
+  },
+  "pomodoroStop": {
+    "message": "停止"
+  },
+  "pomodoroCycles": {
+    "message": "輪次：$COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "phaseWork": {
+    "message": "專注"
+  },
+  "phaseBreak": {
+    "message": "休息"
+  },
+  "phaseLongBreak": {
+    "message": "長休息"
+  },
+  "statsSummary": {
+    "message": "今天 $TODAY$ · 總計 $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "restBrand": {
+    "message": "護眼休息"
+  },
+  "restEyeTitle": {
+    "message": "看看遠方"
+  },
+  "restEyeSubtitle": {
+    "message": "找一個大約 6 公尺外的東西，把視線放在上面"
+  },
+  "restBreakTitle": {
+    "message": "休息 🍅"
+  },
+  "restBreakSubtitle": {
+    "message": "站起來動一動，讓眼睛歇一下"
+  },
+  "restLongBreakTitle": {
+    "message": "長休息 🍅"
+  },
+  "restLongBreakSubtitle": {
+    "message": "離開螢幕，伸展背部和脖子"
+  },
+  "restDone": {
+    "message": "完成"
+  },
+  "restSkip": {
+    "message": "略過（Esc）"
+  },
+  "sceneScreen": {
+    "message": "你的螢幕"
+  },
+  "sceneDistance": {
+    "message": "約 6 公尺（20 英尺）"
+  },
+  "sceneWindow": {
+    "message": "遠處的景物"
+  },
+  "stepWork": {
+    "message": "分鐘工作"
+  },
+  "stepDistance": {
+    "message": "英尺 ≈ 6 公尺"
+  },
+  "stepSeconds": {
+    "message": "秒鐘遠望"
+  },
+  "optionsTitle": {
+    "message": "護眼休息 — 設定"
+  },
+  "cardEyes": {
+    "message": "👀 護眼提醒"
+  },
+  "fieldInterval": {
+    "message": "提醒間隔"
+  },
+  "fieldIntervalHint": {
+    "message": "20-20-20 法則就是每 20 分鐘一次"
+  },
+  "fieldRestSeconds": {
+    "message": "休息時長"
+  },
+  "fieldRestSecondsHint": {
+    "message": "移開視線幾秒"
+  },
+  "fieldNotificationType": {
+    "message": "提醒方式"
+  },
+  "fieldNotificationTypeHint": {
+    "message": "有說明的視窗比較不容易被忽略"
+  },
+  "optionOverlay": {
+    "message": "顯示 20-20-20 說明的視窗"
+  },
+  "optionNotification": {
+    "message": "系統通知"
+  },
+  "optionBoth": {
+    "message": "視窗和通知都要"
+  },
+  "fieldSound": {
+    "message": "音效"
+  },
+  "fieldSoundHint": {
+    "message": "在休息視窗播放。選擇「系統通知」時由系統發聲"
+  },
+  "fieldSoundName": {
+    "message": "選擇音效"
+  },
+  "fieldSoundNameHint": {
+    "message": "按「播放」聽聽看再選"
+  },
+  "playSound": {
+    "message": "▶ 播放"
+  },
+  "previewRestButton": {
+    "message": "立即顯示休息視窗"
+  },
+  "cardPomodoro": {
+    "message": "🍅 番茄鐘"
+  },
+  "fieldWork": {
+    "message": "專注"
+  },
+  "fieldShortBreak": {
+    "message": "短休息"
+  },
+  "fieldLongBreak": {
+    "message": "長休息"
+  },
+  "fieldCycles": {
+    "message": "長休息前的輪次"
+  },
+  "cardStats": {
+    "message": "📊 統計"
+  },
+  "statsLine": {
+    "message": "今天：$TODAY$ · 累計休息：$TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "resetStats": {
+    "message": "重設統計"
+  },
+  "resetStatsConfirm": {
+    "message": "清除所有休息統計？此操作無法復原。"
+  },
+  "saved": {
+    "message": "已儲存 ✓"
+  },
+  "unitMinutes": {
+    "message": "分鐘"
+  },
+  "unitSeconds": {
+    "message": "秒"
+  },
+  "soundChime": {
+    "message": "風鈴"
+  },
+  "soundBell": {
+    "message": "鐘聲"
+  },
+  "soundMarimba": {
+    "message": "馬林巴"
+  },
+  "soundDrop": {
+    "message": "水滴"
+  },
+  "soundSoft": {
+    "message": "輕柔"
+  },
+  "notifyEyeTitle": {
+    "message": "該讓眼睛休息了 👀"
+  },
+  "notifyEyeMessage": {
+    "message": "看向大約 6 公尺外的東西，維持 $SECONDS$ 秒。",
+    "placeholders": {
+      "seconds": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyEyeButton": {
+    "message": "顯示計時器"
+  },
+  "notifyBreakTitle": {
+    "message": "休息：$MINUTES$ 分鐘 🍅",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyBreakMessage": {
+    "message": "站起來動一動，看看遠方。"
+  },
+  "notifyWorkTitle": {
+    "message": "休息結束 🍅"
+  },
+  "notifyWorkMessage": {
+    "message": "繼續工作 — $MINUTES$ 分鐘專注。",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  }
+}

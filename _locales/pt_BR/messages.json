@@ -1,0 +1,276 @@
+{
+  "appName": {
+    "message": "Descanso Visual 20-20-20"
+  },
+  "appDescription": {
+    "message": "Lembretes de descanso para os olhos pela regra 20-20-20, com timer Pomodoro. Tudo fica no seu dispositivo."
+  },
+  "popupEyeTitle": {
+    "message": "👀 Descanso Visual"
+  },
+  "popupSnooze": {
+    "message": "Adiar por 5 minutos"
+  },
+  "popupPreview": {
+    "message": "Testar agora"
+  },
+  "popupPomodoroTitle": {
+    "message": "🍅 Pomodoro"
+  },
+  "popupStatsTitle": {
+    "message": "📊 Descansos"
+  },
+  "popupSettings": {
+    "message": "⚙ Configurações"
+  },
+  "reminderNext": {
+    "message": "Próximo lembrete em ~$MINUTES$ min",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "reminderOff": {
+    "message": "Lembretes desativados"
+  },
+  "reminderPaused": {
+    "message": "Pausado enquanto o Pomodoro está ativo"
+  },
+  "pomodoroIdle": {
+    "message": "Não iniciado"
+  },
+  "pomodoroStart": {
+    "message": "Iniciar ($WORK$ / $BREAK$)",
+    "placeholders": {
+      "work": {
+        "content": "$1"
+      },
+      "break": {
+        "content": "$2"
+      }
+    }
+  },
+  "pomodoroStop": {
+    "message": "Parar"
+  },
+  "pomodoroCycles": {
+    "message": "ciclos: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "phaseWork": {
+    "message": "Foco"
+  },
+  "phaseBreak": {
+    "message": "Pausa"
+  },
+  "phaseLongBreak": {
+    "message": "Pausa longa"
+  },
+  "statsSummary": {
+    "message": "hoje $TODAY$ · total $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "restBrand": {
+    "message": "Descanso Visual"
+  },
+  "restEyeTitle": {
+    "message": "Olhe para longe"
+  },
+  "restEyeSubtitle": {
+    "message": "Escolha algo a uns 6 metros e descanse os olhos nele"
+  },
+  "restBreakTitle": {
+    "message": "Pausa 🍅"
+  },
+  "restBreakSubtitle": {
+    "message": "Levante, alongue-se e descanse os olhos"
+  },
+  "restLongBreakTitle": {
+    "message": "Pausa longa 🍅"
+  },
+  "restLongBreakSubtitle": {
+    "message": "Afaste-se da tela e alongue as costas e o pescoço"
+  },
+  "restDone": {
+    "message": "Pronto"
+  },
+  "restSkip": {
+    "message": "Pular (Esc)"
+  },
+  "sceneScreen": {
+    "message": "sua tela"
+  },
+  "sceneDistance": {
+    "message": "≈ 6 m (20 pés)"
+  },
+  "sceneWindow": {
+    "message": "algo distante"
+  },
+  "stepWork": {
+    "message": "minutos de trabalho"
+  },
+  "stepDistance": {
+    "message": "pés ≈ 6 metros"
+  },
+  "stepSeconds": {
+    "message": "segundos olhando"
+  },
+  "optionsTitle": {
+    "message": "Descanso Visual — configurações"
+  },
+  "cardEyes": {
+    "message": "👀 Lembretes para os olhos"
+  },
+  "fieldInterval": {
+    "message": "Lembrar a cada"
+  },
+  "fieldIntervalHint": {
+    "message": "a regra 20-20-20 significa a cada 20 minutos"
+  },
+  "fieldRestSeconds": {
+    "message": "Duração do descanso"
+  },
+  "fieldRestSecondsHint": {
+    "message": "quantos segundos desviar o olhar"
+  },
+  "fieldNotificationType": {
+    "message": "Como lembrar"
+  },
+  "fieldNotificationTypeHint": {
+    "message": "uma janela com instruções é mais difícil de ignorar"
+  },
+  "optionOverlay": {
+    "message": "Janela com instruções 20-20-20"
+  },
+  "optionNotification": {
+    "message": "Notificação do sistema"
+  },
+  "optionBoth": {
+    "message": "Janela e notificação"
+  },
+  "fieldSound": {
+    "message": "Som"
+  },
+  "fieldSoundHint": {
+    "message": "toca na janela de descanso. Com «Notificação do sistema» o som vem do seu sistema"
+  },
+  "fieldSoundName": {
+    "message": "Qual som"
+  },
+  "fieldSoundNameHint": {
+    "message": "toque em «Tocar» para escolher de ouvido"
+  },
+  "playSound": {
+    "message": "▶ Tocar"
+  },
+  "previewRestButton": {
+    "message": "Mostrar a janela de descanso agora"
+  },
+  "cardPomodoro": {
+    "message": "🍅 Pomodoro"
+  },
+  "fieldWork": {
+    "message": "Foco"
+  },
+  "fieldShortBreak": {
+    "message": "Pausa curta"
+  },
+  "fieldLongBreak": {
+    "message": "Pausa longa"
+  },
+  "fieldCycles": {
+    "message": "Ciclos antes de uma pausa longa"
+  },
+  "cardStats": {
+    "message": "📊 Estatísticas"
+  },
+  "statsLine": {
+    "message": "Hoje: $TODAY$ · Total de descansos: $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "resetStats": {
+    "message": "Zerar estatísticas"
+  },
+  "resetStatsConfirm": {
+    "message": "Apagar todas as estatísticas de descanso? Não dá para desfazer."
+  },
+  "saved": {
+    "message": "Salvo ✓"
+  },
+  "unitMinutes": {
+    "message": "min"
+  },
+  "unitSeconds": {
+    "message": "s"
+  },
+  "soundChime": {
+    "message": "Sino leve"
+  },
+  "soundBell": {
+    "message": "Sino"
+  },
+  "soundMarimba": {
+    "message": "Marimba"
+  },
+  "soundDrop": {
+    "message": "Gota"
+  },
+  "soundSoft": {
+    "message": "Suave"
+  },
+  "notifyEyeTitle": {
+    "message": "Hora de descansar os olhos 👀"
+  },
+  "notifyEyeMessage": {
+    "message": "Olhe para algo a uns 6 metros por $SECONDS$ segundos.",
+    "placeholders": {
+      "seconds": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyEyeButton": {
+    "message": "Ver timer"
+  },
+  "notifyBreakTitle": {
+    "message": "Pausa: $MINUTES$ min 🍅",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyBreakMessage": {
+    "message": "Levante, alongue-se e olhe para longe."
+  },
+  "notifyWorkTitle": {
+    "message": "Fim da pausa 🍅"
+  },
+  "notifyWorkMessage": {
+    "message": "De volta ao trabalho — $MINUTES$ minutos de foco.",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "appName": {
+    "message": "आई रेस्ट 20-20-20"
+  },
+  "appDescription": {
+    "message": "20-20-20 नियम से आँखों को आराम देने की याद दिलाता है, साथ में पोमोडोरो टाइमर। सारा डेटा आपके डिवाइस पर ही रहता है।"
+  },
+  "popupEyeTitle": {
+    "message": "👀 आई रेस्ट"
+  },
+  "popupSnooze": {
+    "message": "5 मिनट बाद याद दिलाएँ"
+  },
+  "popupPreview": {
+    "message": "अभी आज़माएँ"
+  },
+  "popupPomodoroTitle": {
+    "message": "🍅 पोमोडोरो"
+  },
+  "popupStatsTitle": {
+    "message": "📊 ब्रेक"
+  },
+  "popupSettings": {
+    "message": "⚙ सेटिंग्स"
+  },
+  "reminderNext": {
+    "message": "अगला रिमाइंडर लगभग $MINUTES$ मिनट में",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "reminderOff": {
+    "message": "रिमाइंडर बंद हैं"
+  },
+  "reminderPaused": {
+    "message": "पोमोडोरो चलने तक रुका हुआ"
+  },
+  "pomodoroIdle": {
+    "message": "चालू नहीं"
+  },
+  "pomodoroStart": {
+    "message": "शुरू करें ($WORK$ / $BREAK$)",
+    "placeholders": {
+      "work": {
+        "content": "$1"
+      },
+      "break": {
+        "content": "$2"
+      }
+    }
+  },
+  "pomodoroStop": {
+    "message": "रोकें"
+  },
+  "pomodoroCycles": {
+    "message": "चक्र: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "phaseWork": {
+    "message": "फोकस"
+  },
+  "phaseBreak": {
+    "message": "ब्रेक"
+  },
+  "phaseLongBreak": {
+    "message": "लंबा ब्रेक"
+  },
+  "statsSummary": {
+    "message": "आज $TODAY$ · कुल $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "restBrand": {
+    "message": "आई रेस्ट"
+  },
+  "restEyeTitle": {
+    "message": "दूर देखिए"
+  },
+  "restEyeSubtitle": {
+    "message": "करीब 6 मीटर दूर कोई चीज़ चुनिए और उस पर नज़र टिकाइए"
+  },
+  "restBreakTitle": {
+    "message": "ब्रेक 🍅"
+  },
+  "restBreakSubtitle": {
+    "message": "उठिए, थोड़ा खिंचाव कीजिए, आँखों को आराम दीजिए"
+  },
+  "restLongBreakTitle": {
+    "message": "लंबा ब्रेक 🍅"
+  },
+  "restLongBreakSubtitle": {
+    "message": "स्क्रीन से दूर हटिए, पीठ और गर्दन को खोलिए"
+  },
+  "restDone": {
+    "message": "हो गया"
+  },
+  "restSkip": {
+    "message": "छोड़ें (Esc)"
+  },
+  "sceneScreen": {
+    "message": "आपकी स्क्रीन"
+  },
+  "sceneDistance": {
+    "message": "≈ 6 मीटर (20 फुट)"
+  },
+  "sceneWindow": {
+    "message": "दूर की कोई चीज़"
+  },
+  "stepWork": {
+    "message": "मिनट काम"
+  },
+  "stepDistance": {
+    "message": "फुट ≈ 6 मीटर"
+  },
+  "stepSeconds": {
+    "message": "सेकंड तक देखना"
+  },
+  "optionsTitle": {
+    "message": "आई रेस्ट — सेटिंग्स"
+  },
+  "cardEyes": {
+    "message": "👀 आँखों के रिमाइंडर"
+  },
+  "fieldInterval": {
+    "message": "हर कितनी देर में याद दिलाएँ"
+  },
+  "fieldIntervalHint": {
+    "message": "20-20-20 नियम यानी हर 20 मिनट में"
+  },
+  "fieldRestSeconds": {
+    "message": "आराम की अवधि"
+  },
+  "fieldRestSecondsHint": {
+    "message": "कितने सेकंड नज़र हटानी है"
+  },
+  "fieldNotificationType": {
+    "message": "कैसे याद दिलाएँ"
+  },
+  "fieldNotificationTypeHint": {
+    "message": "निर्देश वाली विंडो को अनदेखा करना मुश्किल होता है"
+  },
+  "optionOverlay": {
+    "message": "20-20-20 निर्देश वाली विंडो"
+  },
+  "optionNotification": {
+    "message": "सिस्टम सूचना"
+  },
+  "optionBoth": {
+    "message": "विंडो और सूचना दोनों"
+  },
+  "fieldSound": {
+    "message": "आवाज़"
+  },
+  "fieldSoundHint": {
+    "message": "ब्रेक विंडो में बजती है। «सिस्टम सूचना» चुनने पर आवाज़ आपके सिस्टम से आती है"
+  },
+  "fieldSoundName": {
+    "message": "कौन सी आवाज़"
+  },
+  "fieldSoundNameHint": {
+    "message": "«चलाएँ» दबाकर सुनकर चुनिए"
+  },
+  "playSound": {
+    "message": "▶ चलाएँ"
+  },
+  "previewRestButton": {
+    "message": "ब्रेक विंडो अभी दिखाएँ"
+  },
+  "cardPomodoro": {
+    "message": "🍅 पोमोडोरो"
+  },
+  "fieldWork": {
+    "message": "फोकस"
+  },
+  "fieldShortBreak": {
+    "message": "छोटा ब्रेक"
+  },
+  "fieldLongBreak": {
+    "message": "लंबा ब्रेक"
+  },
+  "fieldCycles": {
+    "message": "लंबे ब्रेक से पहले कितने चक्र"
+  },
+  "cardStats": {
+    "message": "📊 आँकड़े"
+  },
+  "statsLine": {
+    "message": "आज: $TODAY$ · कुल ब्रेक: $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "resetStats": {
+    "message": "आँकड़े रीसेट करें"
+  },
+  "resetStatsConfirm": {
+    "message": "सारे ब्रेक आँकड़े मिटा दें? इसे वापस नहीं किया जा सकता।"
+  },
+  "saved": {
+    "message": "सहेजा गया ✓"
+  },
+  "unitMinutes": {
+    "message": "मिन"
+  },
+  "unitSeconds": {
+    "message": "सेक"
+  },
+  "soundChime": {
+    "message": "चाइम"
+  },
+  "soundBell": {
+    "message": "घंटी"
+  },
+  "soundMarimba": {
+    "message": "मारिम्बा"
+  },
+  "soundDrop": {
+    "message": "बूँद"
+  },
+  "soundSoft": {
+    "message": "कोमल"
+  },
+  "notifyEyeTitle": {
+    "message": "आँखों को आराम देने का समय 👀"
+  },
+  "notifyEyeMessage": {
+    "message": "करीब 6 मीटर दूर किसी चीज़ को $SECONDS$ सेकंड तक देखिए।",
+    "placeholders": {
+      "seconds": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyEyeButton": {
+    "message": "टाइमर दिखाएँ"
+  },
+  "notifyBreakTitle": {
+    "message": "ब्रेक: $MINUTES$ मिन 🍅",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyBreakMessage": {
+    "message": "उठिए, खिंचाव कीजिए, दूर देखिए।"
+  },
+  "notifyWorkTitle": {
+    "message": "ब्रेक खत्म 🍅"
+  },
+  "notifyWorkMessage": {
+    "message": "काम पर वापस — $MINUTES$ मिनट का फोकस।",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  }
+}

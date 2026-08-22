@@ -1,0 +1,276 @@
+{
+  "appName": {
+    "message": "Pause Yeux 20-20-20"
+  },
+  "appDescription": {
+    "message": "Rappels de pause pour les yeux selon la règle 20-20-20, avec minuteur Pomodoro. Tout reste sur votre appareil."
+  },
+  "popupEyeTitle": {
+    "message": "👀 Pause Yeux"
+  },
+  "popupSnooze": {
+    "message": "Reporter de 5 minutes"
+  },
+  "popupPreview": {
+    "message": "Tester maintenant"
+  },
+  "popupPomodoroTitle": {
+    "message": "🍅 Pomodoro"
+  },
+  "popupStatsTitle": {
+    "message": "📊 Pauses"
+  },
+  "popupSettings": {
+    "message": "⚙ Paramètres"
+  },
+  "reminderNext": {
+    "message": "Prochain rappel dans ~$MINUTES$ min",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "reminderOff": {
+    "message": "Rappels désactivés"
+  },
+  "reminderPaused": {
+    "message": "En pause tant que le Pomodoro tourne"
+  },
+  "pomodoroIdle": {
+    "message": "Non démarré"
+  },
+  "pomodoroStart": {
+    "message": "Démarrer ($WORK$ / $BREAK$)",
+    "placeholders": {
+      "work": {
+        "content": "$1"
+      },
+      "break": {
+        "content": "$2"
+      }
+    }
+  },
+  "pomodoroStop": {
+    "message": "Arrêter"
+  },
+  "pomodoroCycles": {
+    "message": "cycles : $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "phaseWork": {
+    "message": "Concentration"
+  },
+  "phaseBreak": {
+    "message": "Pause"
+  },
+  "phaseLongBreak": {
+    "message": "Longue pause"
+  },
+  "statsSummary": {
+    "message": "aujourd'hui $TODAY$ · total $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "restBrand": {
+    "message": "Pause Yeux"
+  },
+  "restEyeTitle": {
+    "message": "Regardez au loin"
+  },
+  "restEyeSubtitle": {
+    "message": "Choisissez un objet à environ 6 mètres et reposez-y vos yeux"
+  },
+  "restBreakTitle": {
+    "message": "Pause 🍅"
+  },
+  "restBreakSubtitle": {
+    "message": "Levez-vous, étirez-vous, reposez vos yeux"
+  },
+  "restLongBreakTitle": {
+    "message": "Longue pause 🍅"
+  },
+  "restLongBreakSubtitle": {
+    "message": "Éloignez-vous de l'écran, étirez le dos et la nuque"
+  },
+  "restDone": {
+    "message": "Terminé"
+  },
+  "restSkip": {
+    "message": "Passer (Échap)"
+  },
+  "sceneScreen": {
+    "message": "votre écran"
+  },
+  "sceneDistance": {
+    "message": "≈ 6 m (20 pieds)"
+  },
+  "sceneWindow": {
+    "message": "quelque chose au loin"
+  },
+  "stepWork": {
+    "message": "minutes de travail"
+  },
+  "stepDistance": {
+    "message": "pieds ≈ 6 mètres"
+  },
+  "stepSeconds": {
+    "message": "secondes à regarder"
+  },
+  "optionsTitle": {
+    "message": "Pause Yeux — paramètres"
+  },
+  "cardEyes": {
+    "message": "👀 Rappels pour les yeux"
+  },
+  "fieldInterval": {
+    "message": "Me rappeler toutes les"
+  },
+  "fieldIntervalHint": {
+    "message": "la règle 20-20-20 signifie toutes les 20 minutes"
+  },
+  "fieldRestSeconds": {
+    "message": "Durée de la pause"
+  },
+  "fieldRestSecondsHint": {
+    "message": "combien de secondes détourner le regard"
+  },
+  "fieldNotificationType": {
+    "message": "Type de rappel"
+  },
+  "fieldNotificationTypeHint": {
+    "message": "une fenêtre avec instructions est plus difficile à ignorer"
+  },
+  "optionOverlay": {
+    "message": "Fenêtre avec instructions 20-20-20"
+  },
+  "optionNotification": {
+    "message": "Notification système"
+  },
+  "optionBoth": {
+    "message": "Fenêtre et notification"
+  },
+  "fieldSound": {
+    "message": "Son"
+  },
+  "fieldSoundHint": {
+    "message": "joué dans la fenêtre de pause. Avec «Notification système», le son vient de votre OS"
+  },
+  "fieldSoundName": {
+    "message": "Quel son"
+  },
+  "fieldSoundNameHint": {
+    "message": "appuyez sur «Écouter» pour choisir à l'oreille"
+  },
+  "playSound": {
+    "message": "▶ Écouter"
+  },
+  "previewRestButton": {
+    "message": "Afficher la fenêtre de pause maintenant"
+  },
+  "cardPomodoro": {
+    "message": "🍅 Pomodoro"
+  },
+  "fieldWork": {
+    "message": "Concentration"
+  },
+  "fieldShortBreak": {
+    "message": "Pause courte"
+  },
+  "fieldLongBreak": {
+    "message": "Longue pause"
+  },
+  "fieldCycles": {
+    "message": "Cycles avant une longue pause"
+  },
+  "cardStats": {
+    "message": "📊 Statistiques"
+  },
+  "statsLine": {
+    "message": "Aujourd'hui : $TODAY$ · Total des pauses : $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "resetStats": {
+    "message": "Réinitialiser les statistiques"
+  },
+  "resetStatsConfirm": {
+    "message": "Effacer toutes les statistiques de pauses ? C'est irréversible."
+  },
+  "saved": {
+    "message": "Enregistré ✓"
+  },
+  "unitMinutes": {
+    "message": "min"
+  },
+  "unitSeconds": {
+    "message": "s"
+  },
+  "soundChime": {
+    "message": "Carillon"
+  },
+  "soundBell": {
+    "message": "Cloche"
+  },
+  "soundMarimba": {
+    "message": "Marimba"
+  },
+  "soundDrop": {
+    "message": "Goutte"
+  },
+  "soundSoft": {
+    "message": "Doux"
+  },
+  "notifyEyeTitle": {
+    "message": "C'est l'heure de reposer vos yeux 👀"
+  },
+  "notifyEyeMessage": {
+    "message": "Regardez quelque chose à environ 6 mètres pendant $SECONDS$ secondes.",
+    "placeholders": {
+      "seconds": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyEyeButton": {
+    "message": "Voir le minuteur"
+  },
+  "notifyBreakTitle": {
+    "message": "Pause : $MINUTES$ min 🍅",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyBreakMessage": {
+    "message": "Levez-vous, étirez-vous, regardez au loin."
+  },
+  "notifyWorkTitle": {
+    "message": "Fin de la pause 🍅"
+  },
+  "notifyWorkMessage": {
+    "message": "Au travail — $MINUTES$ minutes de concentration.",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  }
+}

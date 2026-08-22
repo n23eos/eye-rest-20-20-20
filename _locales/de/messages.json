@@ -1,0 +1,276 @@
+{
+  "appName": {
+    "message": "Augenpause 20-20-20"
+  },
+  "appDescription": {
+    "message": "Erinnerungen an Augenpausen nach der 20-20-20-Regel, plus Pomodoro-Timer. Alles bleibt auf deinem Gerät."
+  },
+  "popupEyeTitle": {
+    "message": "👀 Augenpause"
+  },
+  "popupSnooze": {
+    "message": "5 Minuten später"
+  },
+  "popupPreview": {
+    "message": "Jetzt testen"
+  },
+  "popupPomodoroTitle": {
+    "message": "🍅 Pomodoro"
+  },
+  "popupStatsTitle": {
+    "message": "📊 Pausen"
+  },
+  "popupSettings": {
+    "message": "⚙ Einstellungen"
+  },
+  "reminderNext": {
+    "message": "Nächste Erinnerung in ~$MINUTES$ Min.",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "reminderOff": {
+    "message": "Erinnerungen sind aus"
+  },
+  "reminderPaused": {
+    "message": "Pausiert, solange Pomodoro läuft"
+  },
+  "pomodoroIdle": {
+    "message": "Nicht gestartet"
+  },
+  "pomodoroStart": {
+    "message": "Starten ($WORK$ / $BREAK$)",
+    "placeholders": {
+      "work": {
+        "content": "$1"
+      },
+      "break": {
+        "content": "$2"
+      }
+    }
+  },
+  "pomodoroStop": {
+    "message": "Stoppen"
+  },
+  "pomodoroCycles": {
+    "message": "Zyklen: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "phaseWork": {
+    "message": "Fokus"
+  },
+  "phaseBreak": {
+    "message": "Pause"
+  },
+  "phaseLongBreak": {
+    "message": "Lange Pause"
+  },
+  "statsSummary": {
+    "message": "heute $TODAY$ · gesamt $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "restBrand": {
+    "message": "Augenpause"
+  },
+  "restEyeTitle": {
+    "message": "Schau in die Ferne"
+  },
+  "restEyeSubtitle": {
+    "message": "Such dir etwas in rund 6 Metern Entfernung und ruh die Augen darauf aus"
+  },
+  "restBreakTitle": {
+    "message": "Pause 🍅"
+  },
+  "restBreakSubtitle": {
+    "message": "Steh auf, streck dich, gönn deinen Augen Ruhe"
+  },
+  "restLongBreakTitle": {
+    "message": "Lange Pause 🍅"
+  },
+  "restLongBreakSubtitle": {
+    "message": "Geh vom Bildschirm weg, dehne Rücken und Nacken"
+  },
+  "restDone": {
+    "message": "Fertig"
+  },
+  "restSkip": {
+    "message": "Überspringen (Esc)"
+  },
+  "sceneScreen": {
+    "message": "dein Bildschirm"
+  },
+  "sceneDistance": {
+    "message": "≈ 6 m (20 Fuß)"
+  },
+  "sceneWindow": {
+    "message": "etwas in der Ferne"
+  },
+  "stepWork": {
+    "message": "Minuten Arbeit"
+  },
+  "stepDistance": {
+    "message": "Fuß ≈ 6 Meter"
+  },
+  "stepSeconds": {
+    "message": "Sekunden schauen"
+  },
+  "optionsTitle": {
+    "message": "Augenpause — Einstellungen"
+  },
+  "cardEyes": {
+    "message": "👀 Augen-Erinnerungen"
+  },
+  "fieldInterval": {
+    "message": "Erinnern alle"
+  },
+  "fieldIntervalHint": {
+    "message": "die 20-20-20-Regel bedeutet alle 20 Minuten"
+  },
+  "fieldRestSeconds": {
+    "message": "Dauer der Pause"
+  },
+  "fieldRestSecondsHint": {
+    "message": "wie viele Sekunden wegschauen"
+  },
+  "fieldNotificationType": {
+    "message": "Art der Erinnerung"
+  },
+  "fieldNotificationTypeHint": {
+    "message": "ein Fenster mit Anleitung lässt sich schwerer ignorieren"
+  },
+  "optionOverlay": {
+    "message": "Fenster mit 20-20-20-Anleitung"
+  },
+  "optionNotification": {
+    "message": "Systembenachrichtigung"
+  },
+  "optionBoth": {
+    "message": "Fenster und Benachrichtigung"
+  },
+  "fieldSound": {
+    "message": "Ton"
+  },
+  "fieldSoundHint": {
+    "message": "klingt im Pausenfenster. Bei «Systembenachrichtigung» kommt der Ton vom Betriebssystem"
+  },
+  "fieldSoundName": {
+    "message": "Welcher Ton"
+  },
+  "fieldSoundNameHint": {
+    "message": "auf «Anhören» tippen und nach Gehör wählen"
+  },
+  "playSound": {
+    "message": "▶ Anhören"
+  },
+  "previewRestButton": {
+    "message": "Pausenfenster jetzt anzeigen"
+  },
+  "cardPomodoro": {
+    "message": "🍅 Pomodoro"
+  },
+  "fieldWork": {
+    "message": "Fokus"
+  },
+  "fieldShortBreak": {
+    "message": "Kurze Pause"
+  },
+  "fieldLongBreak": {
+    "message": "Lange Pause"
+  },
+  "fieldCycles": {
+    "message": "Zyklen bis zur langen Pause"
+  },
+  "cardStats": {
+    "message": "📊 Statistik"
+  },
+  "statsLine": {
+    "message": "Heute: $TODAY$ · Pausen gesamt: $TOTAL$",
+    "placeholders": {
+      "today": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "resetStats": {
+    "message": "Statistik zurücksetzen"
+  },
+  "resetStatsConfirm": {
+    "message": "Die gesamte Pausenstatistik löschen? Das lässt sich nicht rückgängig machen."
+  },
+  "saved": {
+    "message": "Gespeichert ✓"
+  },
+  "unitMinutes": {
+    "message": "Min."
+  },
+  "unitSeconds": {
+    "message": "Sek."
+  },
+  "soundChime": {
+    "message": "Glockenspiel"
+  },
+  "soundBell": {
+    "message": "Glocke"
+  },
+  "soundMarimba": {
+    "message": "Marimba"
+  },
+  "soundDrop": {
+    "message": "Tropfen"
+  },
+  "soundSoft": {
+    "message": "Sanft"
+  },
+  "notifyEyeTitle": {
+    "message": "Zeit für eine Augenpause 👀"
+  },
+  "notifyEyeMessage": {
+    "message": "Schau $SECONDS$ Sekunden auf etwas in rund 6 Metern Entfernung.",
+    "placeholders": {
+      "seconds": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyEyeButton": {
+    "message": "Timer anzeigen"
+  },
+  "notifyBreakTitle": {
+    "message": "Pause: $MINUTES$ Min. 🍅",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  },
+  "notifyBreakMessage": {
+    "message": "Steh auf, streck dich, schau in die Ferne."
+  },
+  "notifyWorkTitle": {
+    "message": "Pause vorbei 🍅"
+  },
+  "notifyWorkMessage": {
+    "message": "Weiter geht's — $MINUTES$ Minuten Fokus.",
+    "placeholders": {
+      "minutes": {
+        "content": "$1"
+      }
+    }
+  }
+}
